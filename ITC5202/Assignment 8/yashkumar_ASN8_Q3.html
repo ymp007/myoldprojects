@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>ASN8</title>
+<link rel="stylesheet" type="text/css" href="ASN8.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("button").click(function(){
+			$.getJSON("Asn8.json",function(data){
+				console.log(data);
+				x="<table>";
+				x+="<tr><th>Zip</th><th>City</th></tr>";
+				$.each(data,function(i){
+					x+="<tr><td>"+data[i].ZIP+"</td><td>"+data[i].City+"</td></tr>";
+				});
+				x+="</table>";
+				$('table').html(x);
+			});
+
+		});
+	});
+
+</script>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+	<h1>Zipcodes and City Names</h1>
+	<button id="toronto_btn">
+Load table
+</button>
+<table width="325" height="150" border="1">
+  </table>
+</body></html>

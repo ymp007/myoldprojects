@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>ITC5202</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$.getJSON("Asn8.json",function(data){
+				console.log(data);
+			});
+
+		});
+	});
+
+</script>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+<p id="demo"></p>
+</body></html>

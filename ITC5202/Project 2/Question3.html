@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cureency Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Asn9.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                    $.ajax({
+                        url: "http://www.floatrates.com/daily/eur.json",
+                        success: function (myObj){
+                            console.log(myObj);
+                            y="1 Eur = "+myObj.usd.rate+"  "+myObj.usd.name+"<br/>";
+                            y+="1 Eur = "+myObj.cad.rate+"  "+myObj.cad.name+"<br/>";
+                            y+="1 Eur = "+myObj.inr.rate+"  "+myObj.inr.name+"<br/>";
+                            y+="1 Eur = "+myObj.gbp.rate+"  "+myObj.gbp.name+"<br/>";
+                            y+="1 Eur = "+myObj.aud.rate+"  "+myObj.aud.name+"<br/>";
+                            $('#display').html(y + "<br/>");
+                        },
+                        error: function(){$('#display').html("Check Your Connection")}
+                    });
+                });
+        </script>
+    </head>
+    <body>
+        <h1>Currency</h1>
+        <p id="display"><i></i></p>
+    </body>
+</html>

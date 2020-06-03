@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Assignment 9B</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Asn9.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                url: "http://data.fixer.io/api/latest?access_key=b1d27591ed4c60baf83464fca721e39c",
+                success: function (myObj) {
+                    console.log(myObj);
+                    var y = "";
+                    $.each(myObj.rates, function (index, value) {
+                        y += "1 EUR" + " = " + value + " " + index + "<br/>";
+
+                    });
+
+                    $('#display').html(y);
+                },
+
+                error: function () {
+                    $('#display').html("Check Your Connection")
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<h1>Currency</h1>
+<p id="display"><i></i></p>
+</body>
+</html>

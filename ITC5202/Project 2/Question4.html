@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Currency Exchange</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Asn9.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#countryData").keypress(function(){
+                var countrydata=$('#countryData').val().toLowerCase();
+                    $.ajax({
+                        url: "https://restcountries.eu/rest/v2/all",
+                        success: function(mainData){
+                            $.each(mainData,function(i,value){
+                                if(value.name.toLowerCase()==countrydata){
+                                    var currencyCode = value.currencies[0].code.toLowerCase();
+                                    y="";
+                                    $.ajax({
+                                        url: "http://www.floatrates.com/daily/eur.json",
+                                        success: function (myObj){
+                                                    console.log(myObj); 
+                                                    y+="1 Euro = "+myObj[currencyCode.toString()].rate+" "+myObj[currencyCode.toString()].name;
+                                                    $('#display').html(y + "<br/>");
+                                        
+                                        },
+                                        error: function(){$('#display').html("Check Your Connection")}
+                                    });   
+                                }
+                            });
+                        },
+                        error: function(){$('#display').html("Check Your Connection")}
+                    });
+/*                    */
+                });
+                });
+        </script>
+        <style type="text/css">
+            body{
+                background: url("money.jpg");
+                background-size: cover;
+            }
+            p{
+                color: white;
+            }
+            p{
+                margin-top: 20vh;
+                font-size: 2.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Currency Exchange</h1>
+        <div>
+            <input type="text" id="countryData" placeholder="Enter Country Name Here and Press Enter"/>
+        </div>
+        <p id="display"><i></i></p>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+section{
+	margin-left: 25vw;
+	height:50vh;
+	width:50vw;
+	background-image: url("back.jpg");
+}
+body{
+	background-image: url("background.jpeg");
+	background-size: cover;
+}
+div{
+	margin-left: 19vw;
+	margin-top: 15vh;
+	height:50vh;
+	width:60vw;
+}
+h1{
+	text-align: center;
+	margin-bottom: 1%;
+	font-size: 4em;
+	color: #000;
+}
+form{
+	margin-left: 40%;
+}
+table{
+	background-color: white;
+	margin-top: 2%;
+	margin-left: 36%;
+	border-collapse: collapse;
+}
+th{
+	background-color: #0fdbbc;
+}
+#toronto_btn{
+	margin-top: 2%;
+	margin-left: 42%;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#oakville_btn{
+	margin-top: 2%;
+padding: 10px;	
+	padding-left: 40px;
+	padding-right: 40px;
+}
+button:hover{
+background-color: blue;
+color: white;
+border: 10px black;
+}
+p{
+	text-align: center;
+	font-size: 2em;
+	color: black;
+}
+#tempmini{
+	font-size: 1em;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Add student</h1>
+<h3 id="result"></h3>
+<form id="addform" method="post">
+    name:<input type="text" id="name" /><br />
+    email:<input type="text" id="email" /><br />
+    program:<select name="program" id="program"></select><br />
+    <input type="submit" id="addstudent" value="Add Student">
+</form>
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+    $(document).ready(function (){
+        $.getJSON('getprogram.php', function(data){
+            var cat = "";
+            $.each(data, function(index,category){
+
+                cat += '<option value="' + category.program + '">' + category.program + '</option>';
+            })
+            $('#program').html(cat);
+        });
+        $('#addform').submit(function(event){
+
+            event.preventDefault();
+
+            var email = $('#email').val();
+            var name = $('#name').val();
+            var prog = $('#program').val();
+            $.post('addstudent.php',{email : email, name : name, program: prog}, function(data){
+                $('#result').html(data);
+            });
+        });
+
+    });
+</script>
+</body>
+</html>

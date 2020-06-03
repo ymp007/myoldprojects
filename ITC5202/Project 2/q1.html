@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project2-q1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+    <script>
+        $(document).ready(function () {
+                $.ajax({
+                    type: "GET",
+                    url: "Country.xml",
+                    dataType: "xml",
+                    success: xmlParser
+                });
+
+        function xmlParser(data) {
+
+
+
+            country = $(data).find("mondial");
+
+           // $.each(country, function (index, value) {
+
+            output= '<table border="1" id="countries"><tr><th>'+"Name"+'</th><th>'+ "Capital"+'</th><th>'+ "Unemployment"+'</th><th>'+ "Primary Ethnic Group"+'</th></tr>';
+           $(data).find('country').each(function(index){
+                    var countryname = $(this).find('name:first').text();
+                    //var capital = $(this.find('counrty').attr('capital'));
+                    var capital =$(this).attr("capital");
+                    var unemployment = $(this).find('unemployment').text();
+                    var ethnicgroup = $(this).find('ethnicgroup:first').text();
+                output+= '<tr><td>'+ countryname+ '</td>';
+                output+= '<td>'+ capital+ '</td>';
+                output+= '<td>'+unemployment+'</td>';
+                output+= '<td>'+ethnicgroup+'</td></tr>';
+                    console.log(ethnicgroup);
+                    //var channel = $(this).find('FeedCommonName').text();
+                    //var hd = $(this).find('FeedIsHD').text();
+                   // $('.box ul').append('<li>'+channel+'</li>');
+                });
+             output += '</table>';
+             console.log(output);
+
+
+             $("#display").html(output);
+
+                /*else {
+                    alert('not found');
+                }*/
+
+                //Check whether ZIP was found
+                //if not, display message
+
+
+
+            /*            output= '<table id="reports"><tr><td>'+"City"+'</td><td>'+ city+ '</td></tr>';
+            output+= '<tr><td>'+"Temperature"+'</td><td>'+ temp+ '</td></tr>';
+            output+= '<tr><td>'+"Description"+'</td><td>'+ desc+ '</td></tr>';
+            output+= '<tr><td>'+"Humidity"+'</td><td>'+ humid+ '</td></tr>';
+            output+= '<tr><td>'+"Wind Speed"+'</td><td>'+ wind_speed+ '</td></tr>';
+            output+= '</table>';
+*/
+
+        }
+        });
+ </script>
+</head>
+<body>
+<p id="display"></p>
+</body>
+</html>

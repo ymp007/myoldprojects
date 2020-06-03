@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q1Xsl.xsl" ?>
+<StudentList>
+	<student>
+		<studentid>1002</studentid>
+		<Fname>Jhon</Fname>
+		<Lname>Smith</Lname>
+		<Course>Math</Course>
+		<semester>2018-1</semester>
+	</student>
+	<student>
+		<studentid>1002</studentid>
+		<Fname>Jhon</Fname>
+		<Lname>Smith</Lname>
+		<Course>Science</Course>
+		<semester>2018-1</semester>
+	</student>
+	<student>
+		<studentid>1005</studentid>
+		<Fname>Sara</Fname>
+		<Lname>Coner</Lname>
+		<Course>Java</Course>
+		<semester>2018-2</semester>
+	</student>
+	<student>
+		<studentid>1005</studentid>
+		<Fname>Sara</Fname>
+		<Lname>Coner</Lname>
+		<Course>PHP</Course>
+		<semester>2018-2</semester>
+	</student>
+	<student>
+		<studentid>1005</studentid>
+		<Fname>Sara</Fname>
+		<Lname>Coner</Lname>
+		<Course>XML</Course>
+		<semester>2018-1</semester>
+	</student>
+</StudentList>
+

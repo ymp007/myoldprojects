@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Search Country Information</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Asn9.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#countryData").keypress(function(){
+                var countrydata=$('#countryData').val().toLowerCase();
+                    $.ajax({
+                        url: "https://restcountries.eu/rest/v2/all",
+                        success: function(mainData){
+                            $.each(mainData,function(i,value){
+                                if(value.name.toLowerCase()==countrydata){
+                                    $('#name').html(value.name.toUpperCase()+"<br/>");
+                                    y="";
+                                    y+="With "+value.population+" People<br/>";
+                                    y+="in "+value.subregion+" , "+value.region+"<br/>";
+                                    $('img').attr('src',value.flag);
+                                    y+="has Border With ";
+                                    $.each(value.borders,function(i1,value1){
+                                        $.each(mainData,function(i2,value2){
+                                            if(value1==value2.alpha3Code){
+                                                y+=value2.name+",";
+                                            }
+                                        });
+                                    });
+                                    y=y.substring(0, y.length-1);
+                                    $('#data').html(y);
+                                }
+                            });
+                        },
+                        error: function(){$('#name').html("Check Your Connection")}
+                    });
+                });
+                });
+        </script>
+        <style type="text/css">
+            body{
+                background: url("countryback.jpg");
+                background-size: cover;
+            }
+            p{
+                margin-top: 5vh;
+                font-size: 2.5em;
+            }
+            img{
+                margin-left: 40vw;
+                width: 20vw;
+                height: 20vh;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Search Country Information</h1>
+        <div>
+            <input type="text" id="countryData" placeholder="Enter Country Name Here and Press Enter"/>
+        </div>
+        <p id="name"></p>
+        <img src="">
+        <p id="data"></p>
+    </body>
+</html>

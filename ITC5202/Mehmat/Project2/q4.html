@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>project 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var myobj1;
+            var myobj2;
+            $("#search").click(function () {
+                var textdata = $('#countryData').val();
+                $.when(
+                    // Get the country data
+                    $.get(("https://restcountries.eu/rest/v2/name/" + textdata), function (country) {
+                        myobj1 = country;
+                    }),
+
+                    // Get the currency data
+                    $.get("http://data.fixer.io/api/latest?access_key=b1d27591ed4c60baf83464fca721e39c", function (currency) {
+                        myobj2 = currency;
+                    }),
+                ).then(function () {
+
+                    // All is ready now, so...
+                    //console.log(myobj2);
+                    console.log(myobj1);
+
+                    var x = "<table border = '1'>";
+                    x += "<tr><th>" + "Country Name" + "<th>" + "Capital" + "</th>";
+                    x += "<th>" + "Currency Name" + "</th><th>" + "Currency Symbol" + "</th>";
+                    x += "<th>" + " Euro against their currency" + "</th></tr>";
+                    var currency_code = myobj1[0].currencies[0].code;
+                    var currency_name = myobj1[0].currencies[0].name;
+                    var currency_symbol = myobj1[0].currencies[0].symbol;
+                    var Country_name = myobj1[0].name;
+                    var capital = myobj1[0].capital;
+                    var rates = myobj2.rates;
+                    var currency_rate;
+
+
+                    $.each(rates, function (key, value) {
+
+                        if (currency_code == key) {
+                            currency_rate = value;
+
+                        }
+
+
+                    });
+
+
+                    x += "<tr><td>" + Country_name + "</td><td>" + capital + "</td><td>" + currency_name + "</td>";
+                    x += "<td>" + currency_symbol + "</td><td>" + "1 " + '&#8364;' + "=" + currency_rate.toFixed(2) + " " + currency_symbol + "</td></tr>";
+                    $('#display').html(x);
+                });
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+<h1>Currency</h1>
+<h2>Search Country </h2>
+<form>
+    <input type="text" id="countryData" placeholder="Enter Country Name Here"/>
+    <button id="search" type="button">Search</button>
+</form>
+<p id="display"><i></i></p>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment 9</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  rel="stylesheet" type="text/css" href="Asn9.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               $("#zipData").keyup(function(){
+                   $.getJSON("dataset.json",function(data){
+                       
+                       var textdata=$('#zipData').val()
+                       var x="";
+        $.each(data,function(i,value){
+                        if(textdata.length==1){     
+                            if(value.ZIP.match(textdata+"[0-9]+[A-Z]")){
+                                x+=value.ZIP+" : "+value.City+"<br/>";
+                            }
+                        }else if(textdata.length==2){     
+                            if(value.ZIP.match(textdata+"[A-Z]")){
+                                x+=value.ZIP+" : "+value.City+"<br/>";
+                            }
+                        }
+                        else if(textdata.length == 3){
+                               if(value.ZIP.match(textdata)){
+                                   x+=value.ZIP+" : "+value.City+"<br/>";
+                               }
+                           }else{
+                               x="Sorry Entered Zip code not found <br/>";  
+                           }
+                        });
+                        if(x==""){
+                           x="Sorry Entered Zip code not found <br/>"; 
+                        }
+                        $('#display').html(x);
+			}).fail($('#display').html("Sorry File Not Found"));
+               });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Search City By Zip Codes</h1>
+        <div>
+            <input type="text" id="zipData" placeholder="Enter ZipCode Here"/>
+        </div>
+        <p id="display"><i></i></p>
+        
+    </body>
+</html>

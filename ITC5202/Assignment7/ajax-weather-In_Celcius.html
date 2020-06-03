@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head> <title> ITC5202 - Week9 </title>
+  <link rel="stylesheet" type="text/css" href="ASN7.css">
+<body>
+
+<h1>Weather Information</h1>
+
+<button id="toronto_btn" type="button" onclick="loadDoc()">Get Current Locatoin Weather</button>
+<br><br>
+<p id="demo"></p>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+	//else alert("error");
+  };
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+  
+function showPosition(position) {
+	l=position.coords.latitude;
+	lo=position.coords.longitude;
+
+  xhttp.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat="+l+"&lon="+lo+"&units=metric&appid=76c3ed47797ecf241274a658cd7138c6", true);
+  xhttp.send();
+}
+}
+function myFunction(json) {
+   //alert("h");
+  var jsonDoc = json.responseText;
+  var myObj = JSON.parse(jsonDoc);
+  console.log(myObj);
+  x=myObj.main.temp;
+  y=myObj.name+"<br/>";
+  y+="<h2>"+x+"&#778; C </h2><br/>"
+  y+=myObj.weather[0].description;
+  document.getElementById("demo").innerHTML = y+"<br/>";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+footer{
+	background-color: lightgreen;
+}
+#links{
+	margin-left: 40vw;
+}
+body{
+	font-weight: bold;
+	background-image: url("../img/back3.jpg");
+	background-size: cover;
+	font-family: "Roboto", sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+nav{
+	overflow: hidden;
+}
+header{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+nav a{  
+	font-size: 1.2em;
+	margin-right: 2em;
+	float: right;
+
+	padding: 10px 10px;
+	text-decoration: none;
+	color: black;
+}
+nav a:hover{
+	padding: 9px 9px;
+	border-bottom: 1px solid;
+	border-color: black;
+}
+form{
+	color: black;
+	margin-left: 25vw;
+	padding: 10vh;
+	margin-top: 0vh;
+}
+td{
+	padding: 1vw;
+}
+#submit{
+	margin-left: 10vw;
+	padding : 1vw 2vw 1vw 2vw;
+	border: 1px solid;
+	border-color: black;
+}
+#submit:hover{
+	background-color: black;
+	color: white;
+}
+#logo{
+	float: left;
+}
+input{
+	padding: 1.3em;
+	border-radius: 1.5em;
+}
+.heading{
+	font-size: 2em;
+	text-align: center;
+	text-decoration: underline;
+}
+textarea{
+	border-radius: 1em;
+}
+footer nav{
+	clear: both;
+	margin-right: 30vw;
+}

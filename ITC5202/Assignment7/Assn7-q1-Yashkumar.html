@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Weather Information </title>
+  <link rel="stylesheet" type="text/css" href="ASN7.css">
+<body>
+
+<h1>Weather Information </h1>
+
+<button type="button" id="toronto_btn" onclick="loadDoc('Toronto')">Toronto</button>
+<button type="button" id="oakville_btn" onclick="loadDoc('Oakville')">Oakville</button>
+<br><br>
+<p id="demo"></p>
+<script>
+function loadDoc(City) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+	//else alert("error");
+  };
+  xhttp.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+City+"&units=metric&lang=fr&appid=76c3ed47797ecf241274a658cd7138c6", true);
+  xhttp.send();
+}
+function myFunction(json) {
+   //alert("h");
+  var jsonDoc = json.responseText;
+  var myObj = JSON.parse(jsonDoc);
+  console.log(myObj);
+  x="<h2>"+myObj.main.temp+" &#778;C</h2>";
+  y="<h3>"+myObj.name+"</h3><br/>"
+  y+=x+"<br/>";
+  //y+="Min : "+myObj.main.temp_min+" &#778;C   Max : "+myObj.main.temp_max+" &#778;C <br/>";
+  y+=myObj.weather[0].description+"<br/>";
+  y+="Humidity : "+myObj.main.humidity+"<br/> WindSpeed : "+myObj.wind.speed+" Miles/hr";
+  
+  document.getElementById('demo').innerHTML= y+"<br/>";
+}
+</script>
+</body>
+</html>

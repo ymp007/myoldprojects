@@ -1,0 +1,43 @@
+<h1>Program List </h1>
+<form action="" method="post">
+    <select id="program">
+
+    </select>
+
+</form>
+
+<div id="stupro">
+
+</div>
+
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $.getJSON('getprogram.php', function (data){
+            var pro = "";
+            $.each(data, function(index, proobj){
+                //console.log(proobj);
+               pro += "<option value='" + proobj.program +  "'>"  + proobj.program +  "</option>";
+
+            });
+
+            $('#program').html(pro);
+            //document.getElementById('program').innerHTML = pro;
+
+        } );
+
+      //  document.getElementById('program').onchange
+        $('#program').change(function(){
+            selval = $('#program').val();
+            //console.log(selval);
+            $.getJSON('getStudentInprogram.php', { prog: selval}, function(data){
+                result = '';
+               $.each(data, function(index, value){
+                  result += "<li>" + value.name +  value.email + "</li>";
+               });
+               $('#stupro').html(result);
+            })
+        })
+    })
+</script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Widget</title>
+</head>
+<body>
+
+<button type="button" onclick="loadDoc()">Parse JSON data</button>
+<br><br>
+<script type="text/javascript">
+	function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+	//else alert("error");
+  };
+  xhttp.open("GET", "http://myttc.ca/near/43.6557074,-79.3850234.json", true);
+  xhttp.send();
+}
+function myFunction(json) {
+   //alert("h");
+  var jsonDoc = json.responseText;
+  var myObj = JSON.parse(jsonDoc);
+  console.log(myObj);
+  window.location.href=myObj.url;
+}
+</script>
+</body>
+</html>

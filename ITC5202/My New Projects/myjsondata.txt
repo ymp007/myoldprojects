@@ -1,0 +1,3642 @@
+[
+  {
+    "ZIP": "K0B",
+    "City": "Prescott and Russell United Counties (Alfred)",
+    "prov": "Ontario",
+    "att": 45.4131,
+    "lat": -74.9148
+  },
+  {
+    "ZIP": "K0C",
+    "City": "Stormont, Dundas and Glengarry United Counties (Alexandria)",
+    "prov": "Ontario",
+    "att": 45.2228,
+    "lat": -75.032
+  },
+  {
+    "ZIP": "K0E",
+    "City": "South Leeds and Grenville United Counties (Prescott)",
+    "prov": "Ontario",
+    "att": 44.6478,
+    "lat": -75.7656
+  },
+  {
+    "ZIP": "K0G",
+    "City": "Rideau Lakes area (Kemptville)",
+    "prov": "Ontario",
+    "att": 45.0113,
+    "lat": -75.6459
+  },
+  {
+    "ZIP": "K0H",
+    "City": "Frontenac County, Addington County, Loyalist Shores and Southwest Leeds (Inverary)",
+    "prov": "Ontario",
+    "att": 44.2166,
+    "lat": -76.6455
+  },
+  {
+    "ZIP": "K0J",
+    "City": "Renfrew County and Lanark Highlands Township (Deep River)",
+    "prov": "Ontario",
+    "att": 45.3985,
+    "lat": -78.0836
+  },
+  {
+    "ZIP": "K0K",
+    "City": "Quinte Shores, East Northumberland County & Prince Edward County (Picton)",
+    "prov": "Ontario",
+    "att": 44.0594,
+    "lat": -77.386
+  },
+  {
+    "ZIP": "K0L",
+    "City": "Peterborough County and North Hastings County (Lakefield)",
+    "prov": "Ontario",
+    "att": 44.8324,
+    "lat": -77.9302
+  },
+  {
+    "ZIP": "K0M",
+    "City": "Kawartha lakes and Haliburton County (Bobcaygeon)",
+    "prov": "Ontario",
+    "att": 44.438,
+    "lat": -78.6828
+  },
+  {
+    "ZIP": "K1A",
+    "City": "Government of Canada Ottawa and Gatineau offices",
+    "prov": "Ontario",
+    "att": 45.4207,
+    "lat": -75.7023
+  },
+  {
+    "ZIP": "K1B",
+    "City": "Gloucester (Blackburn Hamlet / Pine View)",
+    "prov": "Ontario",
+    "att": 45.4325,
+    "lat": -75.5624
+  },
+  {
+    "ZIP": "K1C",
+    "City": "Gloucester (West Orleans)",
+    "prov": "Ontario",
+    "att": 45.4805,
+    "lat": -75.5237
+  },
+  {
+    "ZIP": "K1E",
+    "City": "Orleans (Queenswood)",
+    "prov": "Ontario",
+    "att": 45.4882,
+    "lat": -75.5199
+  },
+  {
+    "ZIP": "K1G",
+    "City": "Ottawa (Riverview / Hawthorne)",
+    "prov": "Ontario",
+    "att": 45.4118,
+    "lat": -75.6304
+  },
+  {
+    "ZIP": "K1H",
+    "City": "Ottawa (Alta Vista)",
+    "prov": "Ontario",
+    "att": 45.3938,
+    "lat": -75.6639
+  },
+  {
+    "ZIP": "K1J",
+    "City": "Gloucester (Beacon Hill / Cyrville)",
+    "prov": "Ontario",
+    "att": 45.422,
+    "lat": -75.6303
+  },
+  {
+    "ZIP": "K1K",
+    "City": "Ottawa (Overbrook)",
+    "prov": "Ontario",
+    "att": 45.4354,
+    "lat": -75.6475
+  },
+  {
+    "ZIP": "K1L",
+    "City": "Ottawa (Vanier)",
+    "prov": "Ontario",
+    "att": 45.44,
+    "lat": -75.6524
+  },
+  {
+    "ZIP": "K1M",
+    "City": "Ottawa (Rockcliffe Park / New Edinburgh)",
+    "prov": "Ontario",
+    "att": 45.4461,
+    "lat": -75.6744
+  },
+  {
+    "ZIP": "K1N",
+    "City": "Ottawa (Lower Town / Sandy Hill / University of Ottawa)",
+    "prov": "Ontario",
+    "att": 45.3176,
+    "lat": -75.895
+  },
+  {
+    "ZIP": "K1P",
+    "City": "Ottawa (Parliament Hill)",
+    "prov": "Ontario",
+    "att": 45.423,
+    "lat": -75.702
+  },
+  {
+    "ZIP": "K1R",
+    "City": "Ottawa (West Downtown area)",
+    "prov": "Ontario",
+    "att": 45.4,
+    "lat": -75.7235
+  },
+  {
+    "ZIP": "K1S",
+    "City": "Ottawa (The Glebe / Ottawa South / Ottawa East)",
+    "prov": "Ontario",
+    "att": 45.4127,
+    "lat": -75.6742
+  },
+  {
+    "ZIP": "K1T",
+    "City": "Gloucester (Blossom Park / Hunt Club East / Leitrim)",
+    "prov": "Ontario",
+    "att": 45.352,
+    "lat": -75.6421
+  },
+  {
+    "ZIP": "K1V",
+    "City": "Ottawa (Riverside Park / Hunt Club West / Riverside South / YOW)",
+    "prov": "Ontario",
+    "att": 45.3523,
+    "lat": -75.6512
+  },
+  {
+    "ZIP": "K1W",
+    "City": "Gloucester (South Orleans)",
+    "prov": "Ontario",
+    "att": 45.436,
+    "lat": -75.5471
+  },
+  {
+    "ZIP": "K1X",
+    "City": "Gloucester South",
+    "prov": "Ontario",
+    "att": 45.2884,
+    "lat": -75.5992
+  },
+  {
+    "ZIP": "K1Y",
+    "City": "Ottawa West",
+    "prov": "Ontario",
+    "att": 45.399,
+    "lat": -75.7304
+  },
+  {
+    "ZIP": "K1Z",
+    "City": "Ottawa (Westboro)",
+    "prov": "Ontario",
+    "att": 45.3956,
+    "lat": -75.7462
+  },
+  {
+    "ZIP": "K2A",
+    "City": "Ottawa (Highland Park / Carlingwood)",
+    "prov": "Ontario",
+    "att": 45.3778,
+    "lat": -75.7632
+  },
+  {
+    "ZIP": "K2B",
+    "City": "Ottawa (Britannia / Pinecrest)",
+    "prov": "Ontario",
+    "att": 45.3679,
+    "lat": -75.7888
+  },
+  {
+    "ZIP": "K2C",
+    "City": "Ottawa (Queensway / Copeland / Carlington / Carleton Heights)",
+    "prov": "Ontario",
+    "att": 45.3594,
+    "lat": -75.7523
+  },
+  {
+    "ZIP": "K2E",
+    "City": "Nepean East",
+    "prov": "Ontario",
+    "att": 45.3353,
+    "lat": -75.7209
+  },
+  {
+    "ZIP": "K2G",
+    "City": "Nepean (Davidson Heights)",
+    "prov": "Ontario",
+    "att": 45.3286,
+    "lat": -75.7703
+  },
+  {
+    "ZIP": "K2H",
+    "City": "Nepean (Bells Corners)",
+    "prov": "Ontario",
+    "att": 45.3155,
+    "lat": -75.837
+  },
+  {
+    "ZIP": "K2J",
+    "City": "Nepean (Barrhaven)",
+    "prov": "Ontario",
+    "att": 45.2882,
+    "lat": -75.7566
+  },
+  {
+    "ZIP": "K2K",
+    "City": "Kanata (Beaverbrook / South March)",
+    "prov": "Ontario",
+    "att": 45.3339,
+    "lat": -75.9098
+  },
+  {
+    "ZIP": "K2L",
+    "City": "Kanata (Katimavik-Hazeldean / Glen Cairn)",
+    "prov": "Ontario",
+    "att": 45.3125,
+    "lat": -75.8838
+  },
+  {
+    "ZIP": "K2M",
+    "City": "Kanata (Bridlewood)",
+    "prov": "Ontario",
+    "att": 45.2884,
+    "lat": -75.8648
+  },
+  {
+    "ZIP": "K2P",
+    "City": "Ottawa (Centre Town)",
+    "prov": "Ontario",
+    "att": 45.4129,
+    "lat": -75.6901
+  },
+  {
+    "ZIP": "K2R",
+    "City": "Nepean (Fallowfield Village / Cedarhill Estates / Orchard Estates)",
+    "prov": "Ontario",
+    "att": 45.2776,
+    "lat": -75.7902
+  },
+  {
+    "ZIP": "K2S",
+    "City": "Stittsville",
+    "prov": "Ontario",
+    "att": 45.2573,
+    "lat": -75.9153
+  },
+  {
+    "ZIP": "K2T",
+    "City": "Kanata (Marchwood)",
+    "prov": "Ontario",
+    "att": 45.3121,
+    "lat": -75.9217
+  },
+  {
+    "ZIP": "K2V",
+    "City": "Kanata (Terry Fox / Palladium)",
+    "prov": "Ontario",
+    "att": 45.3018,
+    "lat": -75.9081
+  },
+  {
+    "ZIP": "K2W",
+    "City": "Kanata (North March)",
+    "prov": "Ontario",
+    "att": 45.3564,
+    "lat": -75.9445
+  },
+  {
+    "ZIP": "K4A",
+    "City": "Orleans (Fallingbrook)",
+    "prov": "Ontario",
+    "att": 45.4769,
+    "lat": -75.4835
+  },
+  {
+    "ZIP": "K4B",
+    "City": "Cumberland Township",
+    "prov": "Ontario",
+    "att": 45.4251,
+    "lat": -75.4288
+  },
+  {
+    "ZIP": "K4C",
+    "City": "Cumberland",
+    "prov": "Ontario",
+    "att": 45.5177,
+    "lat": -75.4108
+  },
+  {
+    "ZIP": "K4K",
+    "City": "Rockland",
+    "prov": "Ontario",
+    "att": 45.5415,
+    "lat": -75.3062
+  },
+  {
+    "ZIP": "K4M",
+    "City": "Manotick",
+    "prov": "Ontario",
+    "att": 45.2289,
+    "lat": -75.6817
+  },
+  {
+    "ZIP": "K4P",
+    "City": "Greely",
+    "prov": "Ontario",
+    "att": 45.258,
+    "lat": -75.5762
+  },
+  {
+    "ZIP": "K4R",
+    "City": "Russell",
+    "prov": "Ontario",
+    "att": 45.2573,
+    "lat": -75.3675
+  },
+  {
+    "ZIP": "K6A",
+    "City": "Hawkesbury",
+    "prov": "Ontario",
+    "att": 45.6101,
+    "lat": -74.6085
+  },
+  {
+    "ZIP": "K6H",
+    "City": "Cornwall East",
+    "prov": "Ontario",
+    "att": 45.0186,
+    "lat": -74.7129
+  },
+  {
+    "ZIP": "K6J",
+    "City": "Cornwall West",
+    "prov": "Ontario",
+    "att": 45.0149,
+    "lat": -74.7279
+  },
+  {
+    "ZIP": "K6K",
+    "City": "Cornwall North",
+    "prov": "Ontario",
+    "att": 45.0607,
+    "lat": -74.7542
+  },
+  {
+    "ZIP": "K6T",
+    "City": "Elizabethtown",
+    "prov": "Ontario",
+    "att": 44.618,
+    "lat": -75.6895
+  },
+  {
+    "ZIP": "K6V",
+    "City": "Brockville",
+    "prov": "Ontario",
+    "att": 44.5906,
+    "lat": -75.6808
+  },
+  {
+    "ZIP": "K7A",
+    "City": "Smiths Falls",
+    "prov": "Ontario",
+    "att": 44.8995,
+    "lat": -76.021
+  },
+  {
+    "ZIP": "K7C",
+    "City": "Carleton Place",
+    "prov": "Ontario",
+    "att": 45.135,
+    "lat": -76.1313
+  },
+  {
+    "ZIP": "K7G",
+    "City": "Gananoque",
+    "prov": "Ontario",
+    "att": 44.3319,
+    "lat": -76.1471
+  },
+  {
+    "ZIP": "K7H",
+    "City": "Perth",
+    "prov": "Ontario",
+    "att": 44.902,
+    "lat": -76.2457
+  },
+  {
+    "ZIP": "K7K",
+    "City": "Kingston (SW Pittsburgh Township)",
+    "prov": "Ontario",
+    "att": 44.2322,
+    "lat": -76.4799
+  },
+  {
+    "ZIP": "K7L",
+    "City": "Kingston (Downtown)",
+    "prov": "Ontario",
+    "att": 44.231,
+    "lat": -76.4791
+  },
+  {
+    "ZIP": "K7M",
+    "City": "Kingston (Reddendale / Cataraqui / Collins Bay)",
+    "prov": "Ontario",
+    "att": 44.2274,
+    "lat": -76.5134
+  },
+  {
+    "ZIP": "K7N",
+    "City": "Amherstview",
+    "prov": "Ontario",
+    "att": 44.2255,
+    "lat": -76.629
+  },
+  {
+    "ZIP": "K7P",
+    "City": "Kingston (Westbrook / Cataraqui Woods / Cedarwood)",
+    "prov": "Ontario",
+    "att": 44.2507,
+    "lat": -76.5828
+  },
+  {
+    "ZIP": "K7R",
+    "City": "Napanee",
+    "prov": "Ontario",
+    "att": 44.2538,
+    "lat": -76.943
+  },
+  {
+    "ZIP": "K7S",
+    "City": "Arnprior",
+    "prov": "Ontario",
+    "att": 45.4238,
+    "lat": -76.3624
+  },
+  {
+    "ZIP": "K7V",
+    "City": "Renfrew",
+    "prov": "Ontario",
+    "att": 45.4779,
+    "lat": -76.6731
+  },
+  {
+    "ZIP": "K8A",
+    "City": "Pembroke Central and northern subdivisions",
+    "prov": "Ontario",
+    "att": 45.8173,
+    "lat": -77.1174
+  },
+  {
+    "ZIP": "K8B",
+    "City": "Pembroke (Pleasant View / Fairview)",
+    "prov": "Ontario",
+    "att": 45.815,
+    "lat": -77.1107
+  },
+  {
+    "ZIP": "K8H",
+    "City": "Petawawa",
+    "prov": "Ontario",
+    "att": 45.9151,
+    "lat": -77.2754
+  },
+  {
+    "ZIP": "K8N",
+    "City": "Belleville East",
+    "prov": "Ontario",
+    "att": 44.1607,
+    "lat": -77.369
+  },
+  {
+    "ZIP": "K8P",
+    "City": "Belleville West",
+    "prov": "Ontario",
+    "att": 44.1605,
+    "lat": -77.3846
+  },
+  {
+    "ZIP": "K8R",
+    "City": "Belleville (SE Sidney Township / Avondale)",
+    "prov": "Ontario",
+    "att": 44.1312,
+    "lat": -77.4521
+  },
+  {
+    "ZIP": "K8V",
+    "City": "Trenton",
+    "prov": "Ontario",
+    "att": 44.1106,
+    "lat": -77.5569
+  },
+  {
+    "ZIP": "K9A",
+    "City": "Cobourg",
+    "prov": "Ontario",
+    "att": 43.9851,
+    "lat": -78.1621
+  },
+  {
+    "ZIP": "K9H",
+    "City": "Peterborough North",
+    "prov": "Ontario",
+    "att": 44.299,
+    "lat": -78.3145
+  },
+  {
+    "ZIP": "K9J",
+    "City": "Peterborough South",
+    "prov": "Ontario",
+    "att": 44.2763,
+    "lat": -78.313
+  },
+  {
+    "ZIP": "K9K",
+    "City": "Peterborough (Fairbairn Meadows / Jackson Heights)",
+    "prov": "Ontario",
+    "att": 44.279,
+    "lat": -78.3659
+  },
+  {
+    "ZIP": "K9L",
+    "City": "Peterborough (Terra View Heights / Woodland Acres / Donwood)",
+    "prov": "Ontario",
+    "att": 44.3238,
+    "lat": -78.303
+  },
+  {
+    "ZIP": "K9V",
+    "City": "Lindsay",
+    "prov": "Ontario",
+    "att": 44.3512,
+    "lat": -78.7192
+  },
+  {
+    "ZIP": "L0A",
+    "City": "West Northumberland County (Millbrook)",
+    "prov": "Ontario",
+    "att": 44.1836,
+    "lat": -78.5563
+  },
+  {
+    "ZIP": "L0B",
+    "City": "East Durham Regional Municipality (Orono)",
+    "prov": "Ontario",
+    "att": 44.0286,
+    "lat": -79.0015
+  },
+  {
+    "ZIP": "L0C",
+    "City": "West Durham Regional Municipality (Sunderland)",
+    "prov": "Ontario",
+    "att": 44.0371,
+    "lat": -79.1964
+  },
+  {
+    "ZIP": "L0E",
+    "City": "Lake Simcoe Southeast Shore (Sutton West)",
+    "prov": "Ontario",
+    "att": 44.2406,
+    "lat": -79.357
+  },
+  {
+    "ZIP": "L0G",
+    "City": "Ontario Centre (Queensville)",
+    "prov": "Ontario",
+    "att": 44.1595,
+    "lat": -79.8733
+  },
+  {
+    "ZIP": "L0H",
+    "City": "Whitby Region (Gormley)",
+    "prov": "Ontario",
+    "att": 43.9282,
+    "lat": -79.1201
+  },
+  {
+    "ZIP": "L0J",
+    "City": "North Peel Regional Municipality (Kleinburg)",
+    "prov": "Ontario",
+    "att": 43.7788,
+    "lat": -79.4991
+  },
+  {
+    "ZIP": "L0K",
+    "City": "Lake Simcoe North Shore (Coldwater)",
+    "prov": "Ontario",
+    "att": 44.6072,
+    "lat": -79.6291
+  },
+  {
+    "ZIP": "L0L",
+    "City": "Lake Simcoe West Shore (Oro)",
+    "prov": "Ontario",
+    "att": 44.1535,
+    "lat": -79.8683
+  },
+  {
+    "ZIP": "L0M",
+    "City": "Georgian Bay South Shore (Angus)",
+    "prov": "Ontario",
+    "att": 44.1476,
+    "lat": -79.872
+  },
+  {
+    "ZIP": "L0N",
+    "City": "Dufferin County (Shelburne)",
+    "prov": "Ontario",
+    "att": 43.8582,
+    "lat": -80.0696
+  },
+  {
+    "ZIP": "L0P",
+    "City": "Halton Regional Municipality (Campbellville)",
+    "prov": "Ontario",
+    "att": 43.7882,
+    "lat": -79.6754
+  },
+  {
+    "ZIP": "L0R",
+    "City": "East Haldimand County (Waterdown)",
+    "prov": "Ontario",
+    "att": 43.1661,
+    "lat": -80.0702
+  },
+  {
+    "ZIP": "L0S",
+    "City": "Niagara Regional Municipality (Fonthill)",
+    "prov": "Ontario",
+    "att": 43.0796,
+    "lat": -79.199
+  },
+  {
+    "ZIP": "L1A",
+    "City": "Port Hope",
+    "prov": "Ontario",
+    "att": 43.9427,
+    "lat": -78.2944
+  },
+  {
+    "ZIP": "L1B",
+    "City": "Bowmanville East",
+    "prov": "Ontario",
+    "att": 43.8966,
+    "lat": -78.6309
+  },
+  {
+    "ZIP": "L1C",
+    "City": "Bowmanville West",
+    "prov": "Ontario",
+    "att": 43.9014,
+    "lat": -78.6755
+  },
+  {
+    "ZIP": "L1E",
+    "City": "Courtice",
+    "prov": "Ontario",
+    "att": 43.914,
+    "lat": -78.6925
+  },
+  {
+    "ZIP": "L1G",
+    "City": "Oshawa Central",
+    "prov": "Ontario",
+    "att": 43.898,
+    "lat": -78.8656
+  },
+  {
+    "ZIP": "L1H",
+    "City": "Oshawa Southeast",
+    "prov": "Ontario",
+    "att": 43.8973,
+    "lat": -78.8641
+  },
+  {
+    "ZIP": "L1J",
+    "City": "Oshawa Southwest",
+    "prov": "Ontario",
+    "att": 43.8587,
+    "lat": -78.8341
+  },
+  {
+    "ZIP": "L1K",
+    "City": "Oshawa East",
+    "prov": "Ontario",
+    "att": 43.9091,
+    "lat": -78.8088
+  },
+  {
+    "ZIP": "L1L",
+    "City": "Oshawa North",
+    "prov": "Ontario",
+    "att": 43.9527,
+    "lat": -78.8795
+  },
+  {
+    "ZIP": "L1M",
+    "City": "Whitby North",
+    "prov": "Ontario",
+    "att": 43.9561,
+    "lat": -78.9556
+  },
+  {
+    "ZIP": "L1N",
+    "City": "Whitby Southeast",
+    "prov": "Ontario",
+    "att": 43.8581,
+    "lat": -78.9319
+  },
+  {
+    "ZIP": "L1P",
+    "City": "Whitby Southwest",
+    "prov": "Ontario",
+    "att": 43.8744,
+    "lat": -78.9638
+  },
+  {
+    "ZIP": "L1R",
+    "City": "Whitby Central",
+    "prov": "Ontario",
+    "att": 43.9018,
+    "lat": -78.9347
+  },
+  {
+    "ZIP": "L1S",
+    "City": "Ajax Southwest",
+    "prov": "Ontario",
+    "att": 43.8265,
+    "lat": -78.9991
+  },
+  {
+    "ZIP": "L1T",
+    "City": "Ajax Northwest",
+    "prov": "Ontario",
+    "att": 43.8603,
+    "lat": -79.0434
+  },
+  {
+    "ZIP": "L1V",
+    "City": "Pickering Southwest",
+    "prov": "Ontario",
+    "att": 43.8087,
+    "lat": -79.1307
+  },
+  {
+    "ZIP": "L1W",
+    "City": "Pickering South",
+    "prov": "Ontario",
+    "att": 43.8125,
+    "lat": -79.0827
+  },
+  {
+    "ZIP": "L1X",
+    "City": "Pickering Central",
+    "prov": "Ontario",
+    "att": 43.8449,
+    "lat": -79.0996
+  },
+  {
+    "ZIP": "L1Y",
+    "City": "Pickering North",
+    "prov": "Ontario",
+    "att": 43.9903,
+    "lat": -79.1004
+  },
+  {
+    "ZIP": "L1Z",
+    "City": "Ajax East",
+    "prov": "Ontario",
+    "att": 43.8627,
+    "lat": -79.0136
+  },
+  {
+    "ZIP": "L2A",
+    "City": "Fort Erie",
+    "prov": "Ontario",
+    "att": 42.8845,
+    "lat": -78.9398
+  },
+  {
+    "ZIP": "L2E",
+    "City": "Niagara Falls Central",
+    "prov": "Ontario",
+    "att": 43.0939,
+    "lat": -79.0699
+  },
+  {
+    "ZIP": "L2G",
+    "City": "Niagara Falls Southeast",
+    "prov": "Ontario",
+    "att": 43.0963,
+    "lat": -79.074
+  },
+  {
+    "ZIP": "L2H",
+    "City": "Niagara Falls West",
+    "prov": "Ontario",
+    "att": 43.1148,
+    "lat": -79.1238
+  },
+  {
+    "ZIP": "L2J",
+    "City": "Niagara Falls North",
+    "prov": "Ontario",
+    "att": 43.1155,
+    "lat": -79.0916
+  },
+  {
+    "ZIP": "L2M",
+    "City": "St. Catharines Northeast",
+    "prov": "Ontario",
+    "att": 43.2237,
+    "lat": -79.2191
+  },
+  {
+    "ZIP": "L2N",
+    "City": "St. Catharines Northwest",
+    "prov": "Ontario",
+    "att": 43.1751,
+    "lat": -79.2389
+  },
+  {
+    "ZIP": "L2P",
+    "City": "St. Catharines East",
+    "prov": "Ontario",
+    "att": 43.1418,
+    "lat": -79.2133
+  },
+  {
+    "ZIP": "L2R",
+    "City": "St. Catharines Central",
+    "prov": "Ontario",
+    "att": 43.1719,
+    "lat": -79.227
+  },
+  {
+    "ZIP": "L2S",
+    "City": "St. Catharines Southwest",
+    "prov": "Ontario",
+    "att": 43.1275,
+    "lat": -79.2631
+  },
+  {
+    "ZIP": "L2T",
+    "City": "St. Catharines South",
+    "prov": "Ontario",
+    "att": 43.1334,
+    "lat": -79.1989
+  },
+  {
+    "ZIP": "L2V",
+    "City": "St. Catharines Southeast",
+    "prov": "Ontario",
+    "att": 43.1017,
+    "lat": -79.1997
+  },
+  {
+    "ZIP": "L2W",
+    "City": "St. Catharines West",
+    "prov": "Ontario",
+    "att": 43.1743,
+    "lat": -79.2744
+  },
+  {
+    "ZIP": "L3B",
+    "City": "Welland East",
+    "prov": "Ontario",
+    "att": 42.9859,
+    "lat": -79.2232
+  },
+  {
+    "ZIP": "L3C",
+    "City": "Welland West",
+    "prov": "Ontario",
+    "att": 42.9989,
+    "lat": -79.2466
+  },
+  {
+    "ZIP": "L3K",
+    "City": "Port Colborne",
+    "prov": "Ontario",
+    "att": 42.8754,
+    "lat": -79.237
+  },
+  {
+    "ZIP": "L3M",
+    "City": "Grimsby",
+    "prov": "Ontario",
+    "att": 43.2005,
+    "lat": -79.6292
+  },
+  {
+    "ZIP": "L3P",
+    "City": "Markham Central",
+    "prov": "Ontario",
+    "att": 43.8605,
+    "lat": -79.3279
+  },
+  {
+    "ZIP": "L3R",
+    "City": "Markham Outer Southwest",
+    "prov": "Ontario",
+    "att": 43.86,
+    "lat": -79.3605
+  },
+  {
+    "ZIP": "L3S",
+    "City": "Markham Southeast",
+    "prov": "Ontario",
+    "att": 43.831,
+    "lat": -79.2768
+  },
+  {
+    "ZIP": "L3T",
+    "City": "Thornhill East",
+    "prov": "Ontario",
+    "att": 43.7984,
+    "lat": -79.4186
+  },
+  {
+    "ZIP": "L3V",
+    "City": "Orillia",
+    "prov": "Ontario",
+    "att": 44.6039,
+    "lat": -79.4126
+  },
+  {
+    "ZIP": "L3X",
+    "City": "Newmarket Southwest",
+    "prov": "Ontario",
+    "att": 44.0464,
+    "lat": -79.4874
+  },
+  {
+    "ZIP": "L3Y",
+    "City": "Newmarket Northeast",
+    "prov": "Ontario",
+    "att": 44.0414,
+    "lat": -79.4534
+  },
+  {
+    "ZIP": "L3Z",
+    "City": "Bradford",
+    "prov": "Ontario",
+    "att": 44.1208,
+    "lat": -79.5656
+  },
+  {
+    "ZIP": "L4A",
+    "City": "Stouffville",
+    "prov": "Ontario",
+    "att": 43.9707,
+    "lat": -79.2503
+  },
+  {
+    "ZIP": "L4B",
+    "City": "Richmond Hill Southeast",
+    "prov": "Ontario",
+    "att": 43.8417,
+    "lat": -79.4011
+  },
+  {
+    "ZIP": "L4C",
+    "City": "Richmond Hill Southwest",
+    "prov": "Ontario",
+    "att": 43.8759,
+    "lat": -79.4381
+  },
+  {
+    "ZIP": "L4E",
+    "City": "Richmond Hill North",
+    "prov": "Ontario",
+    "att": 43.9423,
+    "lat": -79.4595
+  },
+  {
+    "ZIP": "L4G",
+    "City": "Aurora",
+    "prov": "Ontario",
+    "att": 43.9909,
+    "lat": -79.4639
+  },
+  {
+    "ZIP": "L4H",
+    "City": "Woodbridge North",
+    "prov": "Ontario",
+    "att": 43.8084,
+    "lat": -79.6089
+  },
+  {
+    "ZIP": "L4J",
+    "City": "Thornhill West",
+    "prov": "Ontario",
+    "att": 43.7964,
+    "lat": -79.4278
+  },
+  {
+    "ZIP": "L4K",
+    "City": "Concord",
+    "prov": "Ontario",
+    "att": 43.7848,
+    "lat": -79.4811
+  },
+  {
+    "ZIP": "L4L",
+    "City": "Woodbridge South",
+    "prov": "Ontario",
+    "att": 43.7886,
+    "lat": -79.5919
+  },
+  {
+    "ZIP": "L4M",
+    "City": "Barrie North",
+    "prov": "Ontario",
+    "att": 44.3885,
+    "lat": -79.6886
+  },
+  {
+    "ZIP": "L4N",
+    "City": "Barrie South",
+    "prov": "Ontario",
+    "att": 44.3891,
+    "lat": -79.6901
+  },
+  {
+    "ZIP": "L4P",
+    "City": "Keswick",
+    "prov": "Ontario",
+    "att": 44.2421,
+    "lat": -79.4818
+  },
+  {
+    "ZIP": "L4R",
+    "City": "Midland",
+    "prov": "Ontario",
+    "att": 44.7542,
+    "lat": -79.9005
+  },
+  {
+    "ZIP": "L4S",
+    "City": "Richmond Hill Central",
+    "prov": "Ontario",
+    "att": 43.8975,
+    "lat": -79.4415
+  },
+  {
+    "ZIP": "L4T",
+    "City": "Mississauga (Malton)",
+    "prov": "Ontario",
+    "att": 43.6951,
+    "lat": -79.6525
+  },
+  {
+    "ZIP": "L4V",
+    "City": "Mississauga (Wildwood)",
+    "prov": "Ontario",
+    "att": 43.6879,
+    "lat": -79.6072
+  },
+  {
+    "ZIP": "L4W",
+    "City": "Mississauga (Matheson / East Rathwood)",
+    "prov": "Ontario",
+    "att": 43.6272,
+    "lat": -79.6222
+  },
+  {
+    "ZIP": "L4X",
+    "City": "Mississauga (East Applewood / East Dixie / NE Lakeview)",
+    "prov": "Ontario",
+    "att": 43.5996,
+    "lat": -79.5664
+  },
+  {
+    "ZIP": "L4Y",
+    "City": "Mississauga (West Applewood / West Dixie / NW Lakeview)",
+    "prov": "Ontario",
+    "att": 43.5854,
+    "lat": -79.583
+  },
+  {
+    "ZIP": "L4Z",
+    "City": "Mississauga (West Rathwood / East Hurontario / SE Gateway)",
+    "prov": "Ontario",
+    "att": 43.6092,
+    "lat": -79.6201
+  },
+  {
+    "ZIP": "L5A",
+    "City": "Mississauga (Mississauga Valleys / East Cooksville)",
+    "prov": "Ontario",
+    "att": 43.5701,
+    "lat": -79.5985
+  },
+  {
+    "ZIP": "L5B",
+    "City": "Mississauga (West Cooksville / Fairview / City Centre / East Creditview)",
+    "prov": "Ontario",
+    "att": 43.5665,
+    "lat": -79.6035
+  },
+  {
+    "ZIP": "L5C",
+    "City": "Mississauga (West Creditview / Mavis / Erindale)",
+    "prov": "Ontario",
+    "att": 43.5591,
+    "lat": -79.6186
+  },
+  {
+    "ZIP": "L5E",
+    "City": "Mississauga (Central Lakeview)",
+    "prov": "Ontario",
+    "att": 43.571,
+    "lat": -79.5668
+  },
+  {
+    "ZIP": "L5G",
+    "City": "Mississauga (SW Lakeview / Mineola / East Port Credit)",
+    "prov": "Ontario",
+    "att": 43.5581,
+    "lat": -79.5738
+  },
+  {
+    "ZIP": "L5H",
+    "City": "Mississauga (West Port Credit / Lorne Park / East Sheridan)",
+    "prov": "Ontario",
+    "att": 43.5472,
+    "lat": -79.585
+  },
+  {
+    "ZIP": "L5J",
+    "City": "Mississauga (Clarkson / Southdown)",
+    "prov": "Ontario",
+    "att": 43.5146,
+    "lat": -79.6063
+  },
+  {
+    "ZIP": "L5K",
+    "City": "Mississauga (West Sheridan)",
+    "prov": "Ontario",
+    "att": 43.5319,
+    "lat": -79.6403
+  },
+  {
+    "ZIP": "L5L",
+    "City": "Mississauga (Erin Mills / Western Business Park)",
+    "prov": "Ontario",
+    "att": 43.5372,
+    "lat": -79.6667
+  },
+  {
+    "ZIP": "L5M",
+    "City": "Mississauga (Churchill Meadows / Central Erin Mills / South Streetsville)",
+    "prov": "Ontario",
+    "att": 43.5747,
+    "lat": -79.7278
+  },
+  {
+    "ZIP": "L5N",
+    "City": "Mississauga (Lisgar / Meadowvale)",
+    "prov": "Ontario",
+    "att": 43.5892,
+    "lat": -79.7239
+  },
+  {
+    "ZIP": "L5P",
+    "City": "Mississauga (YYZ)",
+    "prov": "Ontario",
+    "att": 43.6904,
+    "lat": -79.6238
+  },
+  {
+    "ZIP": "L5R",
+    "City": "Mississauga (West Hurontario / SW Gateway)",
+    "prov": "Ontario",
+    "att": 43.5974,
+    "lat": -79.6402
+  },
+  {
+    "ZIP": "L5S",
+    "City": "Mississauga (Cardiff / NE Gateway)",
+    "prov": "Ontario",
+    "att": 43.6975,
+    "lat": -79.6615
+  },
+  {
+    "ZIP": "L5T",
+    "City": "Mississauga (Courtney Park / East Gateway)",
+    "prov": "Ontario",
+    "att": 43.6578,
+    "lat": -79.6607
+  },
+  {
+    "ZIP": "L5V",
+    "City": "Mississauga (East Credit)",
+    "prov": "Ontario",
+    "att": 43.6097,
+    "lat": -79.704
+  },
+  {
+    "ZIP": "L5W",
+    "City": "Mississauga (Meadowvale Village / West Gateway)",
+    "prov": "Ontario",
+    "att": 43.6261,
+    "lat": -79.729
+  },
+  {
+    "ZIP": "L6A",
+    "City": "Maple",
+    "prov": "Ontario",
+    "att": 43.857,
+    "lat": -79.514
+  },
+  {
+    "ZIP": "L6B",
+    "City": "Markham East",
+    "prov": "Ontario",
+    "att": 43.8845,
+    "lat": -79.2339
+  },
+  {
+    "ZIP": "L6C",
+    "City": "Markham Northwest",
+    "prov": "Ontario",
+    "att": 43.8842,
+    "lat": -79.3359
+  },
+  {
+    "ZIP": "L6E",
+    "City": "Markham Northeast",
+    "prov": "Ontario",
+    "att": 43.8927,
+    "lat": -79.2641
+  },
+  {
+    "ZIP": "L6G",
+    "City": "Markham Inner Southwest",
+    "prov": "Ontario",
+    "att": 43.8478,
+    "lat": -79.3447
+  },
+  {
+    "ZIP": "L6H",
+    "City": "Oakville North",
+    "prov": "Ontario",
+    "att": 43.4543,
+    "lat": -79.6921
+  },
+  {
+    "ZIP": "L6J",
+    "City": "Oakville Northeast",
+    "prov": "Ontario",
+    "att": 43.4427,
+    "lat": -79.6664
+  },
+  {
+    "ZIP": "L6K",
+    "City": "Oakville East",
+    "prov": "Ontario",
+    "att": 43.4401,
+    "lat": -79.669
+  },
+  {
+    "ZIP": "L6L",
+    "City": "Oakville South",
+    "prov": "Ontario",
+    "att": 43.4037,
+    "lat": -79.6934
+  },
+  {
+    "ZIP": "L6M",
+    "City": "Oakville West",
+    "prov": "Ontario",
+    "att": 43.4453,
+    "lat": -79.7095
+  },
+  {
+    "ZIP": "L6P",
+    "City": "Brampton North",
+    "prov": "Ontario",
+    "att": 43.7794,
+    "lat": -79.7284
+  },
+  {
+    "ZIP": "L6R",
+    "City": "Brampton Northwest",
+    "prov": "Ontario",
+    "att": 43.7494,
+    "lat": -79.7511
+  },
+  {
+    "ZIP": "L6S",
+    "City": "Brampton North Central",
+    "prov": "Ontario",
+    "att": 43.7153,
+    "lat": -79.7321
+  },
+  {
+    "ZIP": "L6T",
+    "City": "Brampton East",
+    "prov": "Ontario",
+    "att": 43.6892,
+    "lat": -79.7079
+  },
+  {
+    "ZIP": "L6V",
+    "City": "Brampton Central",
+    "prov": "Ontario",
+    "att": 43.7074,
+    "lat": -79.7853
+  },
+  {
+    "ZIP": "L6W",
+    "City": "Brampton Southeast",
+    "prov": "Ontario",
+    "att": 43.6746,
+    "lat": -79.724
+  },
+  {
+    "ZIP": "L6X",
+    "City": "Brampton Southwest",
+    "prov": "Ontario",
+    "att": 43.6858,
+    "lat": -79.7602
+  },
+  {
+    "ZIP": "L6Y",
+    "City": "Brampton South",
+    "prov": "Ontario",
+    "att": 43.6699,
+    "lat": -79.7444
+  },
+  {
+    "ZIP": "L6Z",
+    "City": "Brampton West Central",
+    "prov": "Ontario",
+    "att": 43.7304,
+    "lat": -79.8042
+  },
+  {
+    "ZIP": "L7A",
+    "City": "Brampton West",
+    "prov": "Ontario",
+    "att": 43.7023,
+    "lat": -79.7909
+  },
+  {
+    "ZIP": "L7B",
+    "City": "King City",
+    "prov": "Ontario",
+    "att": 43.9327,
+    "lat": -79.5104
+  },
+  {
+    "ZIP": "L7C",
+    "City": "Caledon",
+    "prov": "Ontario",
+    "att": 43.7467,
+    "lat": -79.8304
+  },
+  {
+    "ZIP": "L7E",
+    "City": "Bolton",
+    "prov": "Ontario",
+    "att": 43.8628,
+    "lat": -79.7147
+  },
+  {
+    "ZIP": "L7G",
+    "City": "Georgetown",
+    "prov": "Ontario",
+    "att": 43.644,
+    "lat": -79.8787
+  },
+  {
+    "ZIP": "L7J",
+    "City": "Acton",
+    "prov": "Ontario",
+    "att": 43.634,
+    "lat": -80.0491
+  },
+  {
+    "ZIP": "L7L",
+    "City": "Burlington Northeast",
+    "prov": "Ontario",
+    "att": 43.3479,
+    "lat": -79.7593
+  },
+  {
+    "ZIP": "L7M",
+    "City": "Burlington North",
+    "prov": "Ontario",
+    "att": 43.3585,
+    "lat": -79.8093
+  },
+  {
+    "ZIP": "L7N",
+    "City": "Burlington East",
+    "prov": "Ontario",
+    "att": 43.3336,
+    "lat": -79.7771
+  },
+  {
+    "ZIP": "L7P",
+    "City": "Burlington West",
+    "prov": "Ontario",
+    "att": 43.3503,
+    "lat": -79.8117
+  },
+  {
+    "ZIP": "L7R",
+    "City": "Burlington Southeast",
+    "prov": "Ontario",
+    "att": 43.3248,
+    "lat": -79.7957
+  },
+  {
+    "ZIP": "L7S",
+    "City": "Burlington South",
+    "prov": "Ontario",
+    "att": 43.304,
+    "lat": -79.7991
+  },
+  {
+    "ZIP": "L7T",
+    "City": "Burlington Southwest",
+    "prov": "Ontario",
+    "att": 43.3018,
+    "lat": -79.8497
+  },
+  {
+    "ZIP": "L8E",
+    "City": "Hamilton (Confederation Park / Nashdale / East Kentley / Riverdale / Lakely / Grayside / North Stoney Creek)",
+    "prov": "Ontario",
+    "att": 43.2318,
+    "lat": -79.7696
+  },
+  {
+    "ZIP": "L8G",
+    "City": "Hamilton (Greenford / North Gershome / West Stoney Creek)",
+    "prov": "Ontario",
+    "att": 43.2298,
+    "lat": -79.7722
+  },
+  {
+    "ZIP": "L8H",
+    "City": "Hamilton (West Kentley / McQuesten / Parkview / Hamilton Beach / East Industrial Sector / Normanhurst / Homeside / East Crown Point)",
+    "prov": "Ontario",
+    "att": 43.2369,
+    "lat": -79.7991
+  },
+  {
+    "ZIP": "L8J",
+    "City": "Hamilton (East Albion Falls / South Stoney Creek)",
+    "prov": "Ontario",
+    "att": 43.1907,
+    "lat": -79.7878
+  },
+  {
+    "ZIP": "L8K",
+    "City": "Hamilton (East Delta / Bartonville / Glenview / Rosedale / Lower King's Forest / Red Hill / Corman / Vincent / South Gershome)",
+    "prov": "Ontario",
+    "att": 43.2424,
+    "lat": -79.8192
+  },
+  {
+    "ZIP": "L8L",
+    "City": "Hamilton (West Industrial Sector / West Crown Point / North Stipley / North Gibson / Landsdale / Keith / North End / Beasley)",
+    "prov": "Ontario",
+    "att": 43.2645,
+    "lat": -79.8664
+  },
+  {
+    "ZIP": "L8M",
+    "City": "Hamilton (West Delta / Blakeley / South Stipley / South Gibson / St. Clair)",
+    "prov": "Ontario",
+    "att": 43.2522,
+    "lat": -79.8489
+  },
+  {
+    "ZIP": "L8N",
+    "City": "Hamilton (Stinson / Corktown)",
+    "prov": "Ontario",
+    "att": 43.2566,
+    "lat": -79.8683
+  },
+  {
+    "ZIP": "L8P",
+    "City": "Hamilton (Durand / Kirkendall / Chedoke Park)",
+    "prov": "Ontario",
+    "att": 43.257,
+    "lat": -79.8697
+  },
+  {
+    "ZIP": "L8R",
+    "City": "Hamilton (Central / Strathcona / South Dundurn)",
+    "prov": "Ontario",
+    "att": 43.2574,
+    "lat": -79.8676
+  },
+  {
+    "ZIP": "L8S",
+    "City": "Hamilton (Westdale / Cootes Paradise / Ainslie Wood)",
+    "prov": "Ontario",
+    "att": 43.2604,
+    "lat": -79.8961
+  },
+  {
+    "ZIP": "L8T",
+    "City": "Hamilton (Sherwood / Huntington / Upper King's Forest / Lisgar / Berrisfield / Hampton Heights / Sunninghill)",
+    "prov": "Ontario",
+    "att": 43.2365,
+    "lat": -79.8338
+  },
+  {
+    "ZIP": "L8V",
+    "City": "Hamilton (Raleigh / Macassa / Lawfield / Thorner / Burkholme / Eastmount)",
+    "prov": "Ontario",
+    "att": 43.2428,
+    "lat": -79.8524
+  },
+  {
+    "ZIP": "L8W",
+    "City": "Hamilton (West Albion Falls / Hannon / Rymal / Trenholme / Quinndale / Templemead / Broughton / Eleanor / Randall / Rushdale / Butler / East Chappel)",
+    "prov": "Ontario",
+    "att": 43.2141,
+    "lat": -79.8626
+  },
+  {
+    "ZIP": "L9A",
+    "City": "Hamilton (Crerar / Bruleville / Hill Park / Inch Park / Centremount / Balfour / Greeningdon / Jerome)",
+    "prov": "Ontario",
+    "att": 43.241,
+    "lat": -79.8452
+  },
+  {
+    "ZIP": "L9B",
+    "City": "Hamilton (Barnstown / West Chappel / Allison / Ryckmans / Mewburn / Sheldon / Falkirk / Carpenter / Kennedy / Southwest Outskirts)",
+    "prov": "Ontario",
+    "att": 43.2116,
+    "lat": -79.8915
+  },
+  {
+    "ZIP": "L9C",
+    "City": "Hamilton (Southam / Bonnington / Yeoville / Kernighan / Gourley / Rolston / Buchanan / Mohawk / Westcliffe / Gilbert / Gilkson / Gurnett / Fessenden / Mountview)",
+    "prov": "Ontario",
+    "att": 43.2432,
+    "lat": -79.876
+  },
+  {
+    "ZIP": "L9G",
+    "City": "Ancaster West",
+    "prov": "Ontario",
+    "att": 43.2199,
+    "lat": -79.9874
+  },
+  {
+    "ZIP": "L9H",
+    "City": "Dundas",
+    "prov": "Ontario",
+    "att": 43.2638,
+    "lat": -79.9505
+  },
+  {
+    "ZIP": "L9K",
+    "City": "Ancaster East",
+    "prov": "Ontario",
+    "att": 43.2359,
+    "lat": -79.9403
+  },
+  {
+    "ZIP": "L9L",
+    "City": "Port Perry",
+    "prov": "Ontario",
+    "att": 44.0905,
+    "lat": -78.9479
+  },
+  {
+    "ZIP": "L9M",
+    "City": "Penetanguishene",
+    "prov": "Ontario",
+    "att": 44.7672,
+    "lat": -79.9385
+  },
+  {
+    "ZIP": "L9N",
+    "City": "Holland Landing",
+    "prov": "Ontario",
+    "att": 44.1315,
+    "lat": -79.4823
+  },
+  {
+    "ZIP": "L9P",
+    "City": "Uxbridge",
+    "prov": "Ontario",
+    "att": 44.1065,
+    "lat": -79.1427
+  },
+  {
+    "ZIP": "L9R",
+    "City": "Alliston",
+    "prov": "Ontario",
+    "att": 44.1513,
+    "lat": -79.8744
+  },
+  {
+    "ZIP": "L9S",
+    "City": "Innisfil",
+    "prov": "Ontario",
+    "att": 44.2871,
+    "lat": -79.6703
+  },
+  {
+    "ZIP": "L9T",
+    "City": "Milton",
+    "prov": "Ontario",
+    "att": 43.5034,
+    "lat": -79.8773
+  },
+  {
+    "ZIP": "L9V",
+    "City": "Orangeville North",
+    "prov": "Ontario",
+    "att": 43.9471,
+    "lat": -80.1091
+  },
+  {
+    "ZIP": "L9W",
+    "City": "Orangeville South",
+    "prov": "Ontario",
+    "att": 43.9258,
+    "lat": -80.1056
+  },
+  {
+    "ZIP": "L9Y",
+    "City": "Collingwood",
+    "prov": "Ontario",
+    "att": 44.5029,
+    "lat": -80.2176
+  },
+  {
+    "ZIP": "L9Z",
+    "City": "Wasaga Beach",
+    "prov": "Ontario",
+    "att": 44.5208,
+    "lat": -80.0162
+  },
+  {
+    "ZIP": "M1B",
+    "City": "Scarborough (Malvern / Rouge River)",
+    "prov": "Ontario",
+    "att": 43.7976,
+    "lat": -79.227
+  },
+  {
+    "ZIP": "M1C",
+    "City": "Scarborough (Rouge Hill / Port Union / Highland Creek)",
+    "prov": "Ontario",
+    "att": 43.7882,
+    "lat": -79.1911
+  },
+  {
+    "ZIP": "M1E",
+    "City": "Scarborough (Guildwood / Morningside / Ellesmere)",
+    "prov": "Ontario",
+    "att": 43.7385,
+    "lat": -79.2021
+  },
+  {
+    "ZIP": "M1G",
+    "City": "Scarborough (Woburn)",
+    "prov": "Ontario",
+    "att": 43.7563,
+    "lat": -79.2224
+  },
+  {
+    "ZIP": "M1H",
+    "City": "Scarborough (Cedarbrae)",
+    "prov": "Ontario",
+    "att": 43.7563,
+    "lat": -79.2417
+  },
+  {
+    "ZIP": "M1J",
+    "City": "Scarborough (Eglinton)",
+    "prov": "Ontario",
+    "att": 43.7315,
+    "lat": -79.246
+  },
+  {
+    "ZIP": "M1K",
+    "City": "Scarborough (Kennedy Park / Ionview / East Birchmount Park)",
+    "prov": "Ontario",
+    "att": 43.7025,
+    "lat": -79.2656
+  },
+  {
+    "ZIP": "M1L",
+    "City": "Scarborough (The Golden Mile / Clairlea / Oakridge / Birchmount Park East)",
+    "prov": "Ontario",
+    "att": 43.6905,
+    "lat": -79.2857
+  },
+  {
+    "ZIP": "M1M",
+    "City": "Scarborough (Cliffside / Cliffcrest / Scarborough Village West)",
+    "prov": "Ontario",
+    "att": 43.7041,
+    "lat": -79.2446
+  },
+  {
+    "ZIP": "M1N",
+    "City": "Scarborough (Birch Cliff / Cliffside West)",
+    "prov": "Ontario",
+    "att": 43.6748,
+    "lat": -79.2764
+  },
+  {
+    "ZIP": "M1P",
+    "City": "Scarborough (Dorset Park / Wexford Heights / Scarborough Town Centre)",
+    "prov": "Ontario",
+    "att": 43.7422,
+    "lat": -79.2818
+  },
+  {
+    "ZIP": "M1R",
+    "City": "Scarborough (Wexford / Maryvale)",
+    "prov": "Ontario",
+    "att": 43.7293,
+    "lat": -79.3038
+  },
+  {
+    "ZIP": "M1S",
+    "City": "Scarborough (Agincourt)",
+    "prov": "Ontario",
+    "att": 43.7807,
+    "lat": -79.2855
+  },
+  {
+    "ZIP": "M1T",
+    "City": "Scarborough (Clarks Corners / Tam O'Shanter / Sullivan)",
+    "prov": "Ontario",
+    "att": 43.7719,
+    "lat": -79.3213
+  },
+  {
+    "ZIP": "M1V",
+    "City": "Scarborough (Milliken / Agincourt North / Steeles East / L'Amoreaux East)",
+    "prov": "Ontario",
+    "att": 43.813,
+    "lat": -79.2781
+  },
+  {
+    "ZIP": "M1W",
+    "City": "Scarborough (Steeles West / L'Amoreaux West)",
+    "prov": "Ontario",
+    "att": 43.7822,
+    "lat": -79.3261
+  },
+  {
+    "ZIP": "M1X",
+    "City": "Scarborough (Upper Rouge)",
+    "prov": "Ontario",
+    "att": 43.8275,
+    "lat": -79.2437
+  },
+  {
+    "ZIP": "M2H",
+    "City": "North York (Hillcrest Village)",
+    "prov": "Ontario",
+    "att": 43.7895,
+    "lat": -79.3735
+  },
+  {
+    "ZIP": "M2J",
+    "City": "North York (Fairview / Henry Farm / Oriole)",
+    "prov": "Ontario",
+    "att": 43.7685,
+    "lat": -79.3584
+  },
+  {
+    "ZIP": "M2K",
+    "City": "North York (Bayview Village)",
+    "prov": "Ontario",
+    "att": 43.7657,
+    "lat": -79.3835
+  },
+  {
+    "ZIP": "M2L",
+    "City": "North York (York Mills / Silver Hills)",
+    "prov": "Ontario",
+    "att": 43.7352,
+    "lat": -79.3818
+  },
+  {
+    "ZIP": "M2M",
+    "City": "Willowdale East (Newtonbrook)",
+    "prov": "Ontario",
+    "att": 43.784,
+    "lat": -79.4263
+  },
+  {
+    "ZIP": "M2N",
+    "City": "Willowdale South",
+    "prov": "Ontario",
+    "att": 43.7521,
+    "lat": -79.4202
+  },
+  {
+    "ZIP": "M2P",
+    "City": "North York (York Mills West)",
+    "prov": "Ontario",
+    "att": 43.7393,
+    "lat": -79.4005
+  },
+  {
+    "ZIP": "M2R",
+    "City": "Willowdale West",
+    "prov": "Ontario",
+    "att": 43.7648,
+    "lat": -79.4325
+  },
+  {
+    "ZIP": "M3A",
+    "City": "North York (York Heights / Victoria Village / Parkway East)",
+    "prov": "Ontario",
+    "att": 43.7358,
+    "lat": -79.328
+  },
+  {
+    "ZIP": "M3B",
+    "City": "Don Mills North",
+    "prov": "Ontario",
+    "att": 43.7363,
+    "lat": -79.3498
+  },
+  {
+    "ZIP": "M3C",
+    "City": "Don Mills South (Flemingdon Park)",
+    "prov": "Ontario",
+    "att": 43.7122,
+    "lat": -79.3237
+  },
+  {
+    "ZIP": "M3H",
+    "City": "North York (Armour Heights / Wilson Heights / Downsview North)",
+    "prov": "Ontario",
+    "att": 43.7387,
+    "lat": -79.4337
+  },
+  {
+    "ZIP": "M3J",
+    "City": "North York (Northwood Park / York University)",
+    "prov": "Ontario",
+    "att": 43.7496,
+    "lat": -79.4886
+  },
+  {
+    "ZIP": "M3K",
+    "City": "Downsview East (CFB Toronto)",
+    "prov": "Ontario",
+    "att": 43.7271,
+    "lat": -79.4666
+  },
+  {
+    "ZIP": "M3L",
+    "City": "Downsview West",
+    "prov": "Ontario",
+    "att": 43.7183,
+    "lat": -79.5119
+  },
+  {
+    "ZIP": "M3M",
+    "City": "Downsview Central",
+    "prov": "Ontario",
+    "att": 43.72,
+    "lat": -79.5085
+  },
+  {
+    "ZIP": "M3N",
+    "City": "North York (Jane and Finch)",
+    "prov": "Ontario",
+    "att": 43.7387,
+    "lat": -79.5166
+  },
+  {
+    "ZIP": "M4A",
+    "City": "North York (Sweeney Park / Wigmore Park)",
+    "prov": "Ontario",
+    "att": 43.7159,
+    "lat": -79.3037
+  },
+  {
+    "ZIP": "M4B",
+    "City": "East York (Parkview Hill / Woodbine Gardens)",
+    "prov": "Ontario",
+    "att": 43.6979,
+    "lat": -79.2986
+  },
+  {
+    "ZIP": "M4C",
+    "City": "East York (Woodbine Heights)",
+    "prov": "Ontario",
+    "att": 43.68,
+    "lat": -79.3218
+  },
+  {
+    "ZIP": "M4E",
+    "City": "East Toronto (The Beaches)",
+    "prov": "Ontario",
+    "att": 43.6675,
+    "lat": -79.296
+  },
+  {
+    "ZIP": "M4G",
+    "City": "East York (Leaside)",
+    "prov": "Ontario",
+    "att": 43.6918,
+    "lat": -79.3708
+  },
+  {
+    "ZIP": "M4H",
+    "City": "East York (Thorncliffe Park)",
+    "prov": "Ontario",
+    "att": 43.7018,
+    "lat": -79.3578
+  },
+  {
+    "ZIP": "M4J",
+    "City": "East Toronto (The Danforth East)",
+    "prov": "Ontario",
+    "att": 43.6713,
+    "lat": -79.3412
+  },
+  {
+    "ZIP": "M4K",
+    "City": "East Toronto (The Danforth West / Riverdale)",
+    "prov": "Ontario",
+    "att": 43.6668,
+    "lat": -79.3501
+  },
+  {
+    "ZIP": "M4L",
+    "City": "East Toronto (India Bazaar / The Beaches West)",
+    "prov": "Ontario",
+    "att": 43.662,
+    "lat": -79.3281
+  },
+  {
+    "ZIP": "M4M",
+    "City": "East Toronto (Studio District)",
+    "prov": "Ontario",
+    "att": 43.6505,
+    "lat": -79.3369
+  },
+  {
+    "ZIP": "M4N",
+    "City": "Central Toronto (Lawrence Park East)",
+    "prov": "Ontario",
+    "att": 43.7168,
+    "lat": -79.3998
+  },
+  {
+    "ZIP": "M4P",
+    "City": "Central Toronto (Davisville North)",
+    "prov": "Ontario",
+    "att": 43.7066,
+    "lat": -79.398
+  },
+  {
+    "ZIP": "M4R",
+    "City": "Central Toronto (North Toronto West)",
+    "prov": "Ontario",
+    "att": 43.7066,
+    "lat": -79.3996
+  },
+  {
+    "ZIP": "M4S",
+    "City": "Central Toronto (Davisville)",
+    "prov": "Ontario",
+    "att": 43.6964,
+    "lat": -79.3953
+  },
+  {
+    "ZIP": "M4T",
+    "City": "Central Toronto (Moore Park / Summerhill East)",
+    "prov": "Ontario",
+    "att": 43.6825,
+    "lat": -79.3897
+  },
+  {
+    "ZIP": "M4V",
+    "City": "Central Toronto (Summerhill West / Rathnelly / South Hill / Forest Hill SE / Deer Park)",
+    "prov": "Ontario",
+    "att": 43.6778,
+    "lat": -79.3992
+  },
+  {
+    "ZIP": "M4W",
+    "City": "Downtown Toronto (Rosedale)",
+    "prov": "Ontario",
+    "att": 43.6699,
+    "lat": -79.3887
+  },
+  {
+    "ZIP": "M4X",
+    "City": "Downtown Toronto (St. James Town / Cabbagetown)",
+    "prov": "Ontario",
+    "att": 43.6647,
+    "lat": -79.3695
+  },
+  {
+    "ZIP": "M4Y",
+    "City": "Downtown Toronto (Church and Wellesley)",
+    "prov": "Ontario",
+    "att": 43.6618,
+    "lat": -79.3847
+  },
+  {
+    "ZIP": "M5A",
+    "City": "Downtown Toronto (Regent Park / Port of Toronto)",
+    "prov": "Ontario",
+    "att": 43.6369,
+    "lat": -79.3505
+  },
+  {
+    "ZIP": "M5B",
+    "City": "Downtown Toronto (Ryerson)",
+    "prov": "Ontario",
+    "att": 43.6543,
+    "lat": -79.3796
+  },
+  {
+    "ZIP": "M5C",
+    "City": "Downtown Toronto (St. James Park)",
+    "prov": "Ontario",
+    "att": 43.687,
+    "lat": -79.5318
+  },
+  {
+    "ZIP": "M5E",
+    "City": "Downtown Toronto (Berczy Park)",
+    "prov": "Ontario",
+    "att": 43.639,
+    "lat": -79.4499
+  },
+  {
+    "ZIP": "M5G",
+    "City": "Downtown Toronto (Central Bay Street)",
+    "prov": "Ontario",
+    "att": 43.6519,
+    "lat": -79.3874
+  },
+  {
+    "ZIP": "M5H",
+    "City": "Downtown Toronto (Richmond / Adelaide / King)",
+    "prov": "Ontario",
+    "att": 43.649,
+    "lat": -79.3784
+  },
+  {
+    "ZIP": "M5J",
+    "City": "Downtown Toronto (Harbourfront East / Union Station / Toronto Island)",
+    "prov": "Ontario",
+    "att": 43.6441,
+    "lat": -79.3801
+  },
+  {
+    "ZIP": "M5K",
+    "City": "Downtown Toronto (Toronto Dominion Centre / Design Exchange)",
+    "prov": "Ontario",
+    "att": 43.6469,
+    "lat": -79.3823
+  },
+  {
+    "ZIP": "M5L",
+    "City": "Downtown Toronto (Commerce Court / Victoria Hotel)",
+    "prov": "Ontario",
+    "att": 43.6492,
+    "lat": -79.3823
+  },
+  {
+    "ZIP": "M5M",
+    "City": "North York (Bedford Park / Lawrence Park West / Lawrence Manor East)",
+    "prov": "Ontario",
+    "att": 43.7248,
+    "lat": -79.4033
+  },
+  {
+    "ZIP": "M5N",
+    "City": "Central Toronto (Roselawn)",
+    "prov": "Ontario",
+    "att": 43.7043,
+    "lat": -79.4093
+  },
+  {
+    "ZIP": "M5P",
+    "City": "Central Toronto (Forest Hill North & West)",
+    "prov": "Ontario",
+    "att": 43.6981,
+    "lat": -79.3987
+  },
+  {
+    "ZIP": "M5R",
+    "City": "Central Toronto (The Annex / North Midtown / Yorkville)",
+    "prov": "Ontario",
+    "att": 43.6705,
+    "lat": -79.3901
+  },
+  {
+    "ZIP": "M5S",
+    "City": "Downtown Toronto (University of Toronto / Harbord)",
+    "prov": "Ontario",
+    "att": 43.6619,
+    "lat": -79.3952
+  },
+  {
+    "ZIP": "M5T",
+    "City": "Downtown Toronto (Kensington Market / Chinatown / Grange Park)",
+    "prov": "Ontario",
+    "att": 43.6497,
+    "lat": -79.3952
+  },
+  {
+    "ZIP": "M5V",
+    "City": "Downtown Toronto (CN Tower / King and Spadina / Railway Lands / Harbourfront West / Bathurst Quay / South Niagara / YTZ)",
+    "prov": "Ontario",
+    "att": 43.6525,
+    "lat": -79.3686
+  },
+  {
+    "ZIP": "M5W",
+    "City": "Downtown Toronto Stn A PO Boxes 25 The Esplanade (Enclave of M5E)",
+    "prov": "Ontario",
+    "att": 43.6437,
+    "lat": -79.3787
+  },
+  {
+    "ZIP": "M5X",
+    "City": "Downtown Toronto (Underground city)",
+    "prov": "Ontario",
+    "att": 43.6492,
+    "lat": -79.3823
+  },
+  {
+    "ZIP": "M6A",
+    "City": "North York (Lawrence Manor / Lawrence Heights)",
+    "prov": "Ontario",
+    "att": 43.7193,
+    "lat": -79.43
+  },
+  {
+    "ZIP": "M6B",
+    "City": "North York (Glencairn)",
+    "prov": "Ontario",
+    "att": 43.7054,
+    "lat": -79.4272
+  },
+  {
+    "ZIP": "M6C",
+    "City": "York (Cedarvale)",
+    "prov": "Ontario",
+    "att": 43.683,
+    "lat": -79.4184
+  },
+  {
+    "ZIP": "M6E",
+    "City": "York (Fairbank / Oakwood)",
+    "prov": "Ontario",
+    "att": 43.6797,
+    "lat": -79.4358
+  },
+  {
+    "ZIP": "M6G",
+    "City": "Downtown Toronto (Christie)",
+    "prov": "Ontario",
+    "att": 43.6565,
+    "lat": -79.4079
+  },
+  {
+    "ZIP": "M6H",
+    "City": "West Toronto (Dufferin / Dovercourt Village)",
+    "prov": "Ontario",
+    "att": 43.6536,
+    "lat": -79.4258
+  },
+  {
+    "ZIP": "M6J",
+    "City": "West Toronto (Rua A�ores / Trinity)",
+    "prov": "Ontario",
+    "att": 43.644,
+    "lat": -79.4062
+  },
+  {
+    "ZIP": "M6K",
+    "City": "West Toronto (Brockton / Parkdale Village / Exhibition Place)",
+    "prov": "Ontario",
+    "att": 43.6392,
+    "lat": -79.4058
+  },
+  {
+    "ZIP": "M6L",
+    "City": "North York (North Park / Maple Leaf Park / Upwood Park)",
+    "prov": "Ontario",
+    "att": 43.7103,
+    "lat": -79.4714
+  },
+  {
+    "ZIP": "M6M",
+    "City": "York (Del Ray / Keelsdale / Mount Dennis / Silverthorne)",
+    "prov": "Ontario",
+    "att": 43.6815,
+    "lat": -79.4668
+  },
+  {
+    "ZIP": "M6N",
+    "City": "York (Runnymede / The Junction North)",
+    "prov": "Ontario",
+    "att": 43.668,
+    "lat": -79.4515
+  },
+  {
+    "ZIP": "M6P",
+    "City": "West Toronto (High Park / The Junction South)",
+    "prov": "Ontario",
+    "att": 43.6558,
+    "lat": -79.4663
+  },
+  {
+    "ZIP": "M6R",
+    "City": "West Toronto (Parkdale / Roncesvalles Village)",
+    "prov": "Ontario",
+    "att": 43.6403,
+    "lat": -79.4374
+  },
+  {
+    "ZIP": "M6S",
+    "City": "West Toronto (Bloor West Village / Swansea)",
+    "prov": "Ontario",
+    "att": 43.6358,
+    "lat": -79.4668
+  },
+  {
+    "ZIP": "M7A",
+    "City": "Queen's Park Ontario Provincial Government",
+    "prov": "Ontario",
+    "att": 43.6641,
+    "lat": -79.3889
+  },
+  {
+    "ZIP": "M7Y",
+    "City": "East Toronto Business Reply Mail Processing Centre 969 Eastern (Enclave of M4L)",
+    "prov": "Ontario",
+    "att": 43.7804,
+    "lat": -79.2505
+  },
+  {
+    "ZIP": "M8V",
+    "City": "Etobicoke (New Toronto / Mimico South / Humber Bay Shores)",
+    "prov": "Ontario",
+    "att": 43.6305,
+    "lat": -79.4762
+  },
+  {
+    "ZIP": "M8W",
+    "City": "Etobicoke (Alderwood / Long Branch)",
+    "prov": "Ontario",
+    "att": 43.5908,
+    "lat": -79.5218
+  },
+  {
+    "ZIP": "M8X",
+    "City": "Etobicoke (The Kingsway / Montgomery Road / Old Mill North)",
+    "prov": "Ontario",
+    "att": 43.649,
+    "lat": -79.4977
+  },
+  {
+    "ZIP": "M8Y",
+    "City": "Etobicoke (Old Mill South / King's Mill Park / Sunnylea / Humber Bay / Mimico NE / The Queensway East / Royal York South East / Kingsway Park South East)",
+    "prov": "Ontario",
+    "att": 43.6181,
+    "lat": -79.4967
+  },
+  {
+    "ZIP": "M8Z",
+    "City": "Etobicoke (Mimico NW / The Queensway West / South of Bloor / Kingsway Park South West / Royal York South West)",
+    "prov": "Ontario",
+    "att": 43.6053,
+    "lat": -79.5201
+  },
+  {
+    "ZIP": "M9A",
+    "City": "Etobicoke (Islington Avenue)",
+    "prov": "Ontario",
+    "att": 43.6434,
+    "lat": -79.5297
+  },
+  {
+    "ZIP": "M9B",
+    "City": "Etobicoke (West Deane Park / Princess Gardens / Martin Grove / Islington / Cloverdale)",
+    "prov": "Ontario",
+    "att": 43.6383,
+    "lat": -79.5356
+  },
+  {
+    "ZIP": "M9C",
+    "City": "Etobicoke (Eringate / Bloordale Gardens / Old Burnhamthorpe / Markland Woods)",
+    "prov": "Ontario",
+    "att": 43.6088,
+    "lat": -79.5574
+  },
+  {
+    "ZIP": "M9L",
+    "City": "North York (Humber Summit)",
+    "prov": "Ontario",
+    "att": 43.7494,
+    "lat": -79.5614
+  },
+  {
+    "ZIP": "M9M",
+    "City": "North York (Humberlea / Emery)",
+    "prov": "Ontario",
+    "att": 43.7182,
+    "lat": -79.5216
+  },
+  {
+    "ZIP": "M9N",
+    "City": "Weston",
+    "prov": "Ontario",
+    "att": 43.7087,
+    "lat": -79.5287
+  },
+  {
+    "ZIP": "M9P",
+    "City": "Etobicoke (Westmount)",
+    "prov": "Ontario",
+    "att": 43.6814,
+    "lat": -79.5367
+  },
+  {
+    "ZIP": "M9R",
+    "City": "Etobicoke (Kingsview Village / St. Phillips / Martin Grove Gardens / Richview Gardens)",
+    "prov": "Ontario",
+    "att": 43.6808,
+    "lat": -79.5438
+  },
+  {
+    "ZIP": "M9V",
+    "City": "Etobicoke (South Steeles / Silverstone / Humbergate / Jamestown / Mount Olive / Beaumond Heights / Thistletown / Albion Gardens)",
+    "prov": "Ontario",
+    "att": 43.73,
+    "lat": -79.5542
+  },
+  {
+    "ZIP": "M9W",
+    "City": "Etobicoke Northwest (Clairville / Humberwood / Woodbine Downs / West Humber / Kipling Heights / Rexdale / Elms / Tandridge / Old Rexdale)",
+    "prov": "Ontario",
+    "att": 43.6772,
+    "lat": -79.5894
+  },
+  {
+    "ZIP": "N0A",
+    "City": "West Haldimand (Port Dover)",
+    "prov": "Ontario",
+    "att": 42.9466,
+    "lat": -79.8509
+  },
+  {
+    "ZIP": "N0B",
+    "City": "Wellington (Elora)",
+    "prov": "Ontario",
+    "att": 43.7722,
+    "lat": -80.6586
+  },
+  {
+    "ZIP": "N0C",
+    "City": "Georgian Bay Southwest Shore (Dundalk)",
+    "prov": "Ontario",
+    "att": 44.2999,
+    "lat": -80.4804
+  },
+  {
+    "ZIP": "N0E",
+    "City": "Brant and Norfolk (Waterford)",
+    "prov": "Ontario",
+    "att": 43.0986,
+    "lat": -80.5633
+  },
+  {
+    "ZIP": "N0G",
+    "City": "Huron (Wingham)",
+    "prov": "Ontario",
+    "att": 43.8567,
+    "lat": -81.4023
+  },
+  {
+    "ZIP": "N0H",
+    "City": "Bruce Peninsula (Wiarton)",
+    "prov": "Ontario",
+    "att": 44.3483,
+    "lat": -80.914
+  },
+  {
+    "ZIP": "N0J",
+    "City": "Oxford (Norwich)",
+    "prov": "Ontario",
+    "att": 43.221,
+    "lat": -80.5613
+  },
+  {
+    "ZIP": "N0K",
+    "City": "Perth (Mitchell)",
+    "prov": "Ontario",
+    "att": 43.5838,
+    "lat": -81.2351
+  },
+  {
+    "ZIP": "N0L",
+    "City": "Elgin (Dorchester)",
+    "prov": "Ontario",
+    "att": 42.8188,
+    "lat": -81.6437
+  },
+  {
+    "ZIP": "N0M",
+    "City": "Middlesex (Clinton)",
+    "prov": "Ontario",
+    "att": 43.5651,
+    "lat": -81.6986
+  },
+  {
+    "ZIP": "N0N",
+    "City": "Lambton (Forest)",
+    "prov": "Ontario",
+    "att": 42.7967,
+    "lat": -81.7938
+  },
+  {
+    "ZIP": "N0P",
+    "City": "Kent (Blenheim)",
+    "prov": "Ontario",
+    "att": 42.5323,
+    "lat": -81.7991
+  },
+  {
+    "ZIP": "N0R",
+    "City": "Essex (Belle River)",
+    "prov": "Ontario",
+    "att": 42.2932,
+    "lat": -82.7075
+  },
+  {
+    "ZIP": "N1A",
+    "City": "Dunnville",
+    "prov": "Ontario",
+    "att": 42.9132,
+    "lat": -79.6101
+  },
+  {
+    "ZIP": "N1C",
+    "City": "Guelph South",
+    "prov": "Ontario",
+    "att": 43.5036,
+    "lat": -80.2394
+  },
+  {
+    "ZIP": "N1E",
+    "City": "Guelph North",
+    "prov": "Ontario",
+    "att": 43.5749,
+    "lat": -80.2688
+  },
+  {
+    "ZIP": "N1G",
+    "City": "Guelph Central",
+    "prov": "Ontario",
+    "att": 43.5325,
+    "lat": -80.2531
+  },
+  {
+    "ZIP": "N1H",
+    "City": "Guelph Northwest",
+    "prov": "Ontario",
+    "att": 43.555,
+    "lat": -80.2868
+  },
+  {
+    "ZIP": "N1K",
+    "City": "Guelph West",
+    "prov": "Ontario",
+    "att": 43.5156,
+    "lat": -80.2827
+  },
+  {
+    "ZIP": "N1L",
+    "City": "Guelph East",
+    "prov": "Ontario",
+    "att": 43.5225,
+    "lat": -80.2095
+  },
+  {
+    "ZIP": "N1M",
+    "City": "Fergus",
+    "prov": "Ontario",
+    "att": 43.7157,
+    "lat": -80.387
+  },
+  {
+    "ZIP": "N1P",
+    "City": "Cambridge South",
+    "prov": "Ontario",
+    "att": 43.3372,
+    "lat": -80.3021
+  },
+  {
+    "ZIP": "N1R",
+    "City": "Cambridge Central",
+    "prov": "Ontario",
+    "att": 43.3831,
+    "lat": -80.3191
+  },
+  {
+    "ZIP": "N1S",
+    "City": "Cambridge Southwest",
+    "prov": "Ontario",
+    "att": 43.3742,
+    "lat": -80.3457
+  },
+  {
+    "ZIP": "N1T",
+    "City": "Cambridge East",
+    "prov": "Ontario",
+    "att": 43.4067,
+    "lat": -80.3037
+  },
+  {
+    "ZIP": "N2A",
+    "City": "Kitchener East",
+    "prov": "Ontario",
+    "att": 43.4353,
+    "lat": -80.4527
+  },
+  {
+    "ZIP": "N2B",
+    "City": "Kitchener Northeast",
+    "prov": "Ontario",
+    "att": 43.448,
+    "lat": -80.4589
+  },
+  {
+    "ZIP": "N2C",
+    "City": "Kitchener South Central",
+    "prov": "Ontario",
+    "att": 43.4346,
+    "lat": -80.4532
+  },
+  {
+    "ZIP": "N2E",
+    "City": "Kitchener Southwest",
+    "prov": "Ontario",
+    "att": 43.4236,
+    "lat": -80.48
+  },
+  {
+    "ZIP": "N2G",
+    "City": "Kitchener Central",
+    "prov": "Ontario",
+    "att": 43.4497,
+    "lat": -80.4893
+  },
+  {
+    "ZIP": "N2H",
+    "City": "Kitchener North Central",
+    "prov": "Ontario",
+    "att": 43.4487,
+    "lat": -80.4849
+  },
+  {
+    "ZIP": "N2J",
+    "City": "Waterloo Southeast",
+    "prov": "Ontario",
+    "att": 43.4613,
+    "lat": -80.507
+  },
+  {
+    "ZIP": "N2K",
+    "City": "Kitchener North",
+    "prov": "Ontario",
+    "att": 43.4801,
+    "lat": -80.4801
+  },
+  {
+    "ZIP": "N2L",
+    "City": "Waterloo South",
+    "prov": "Ontario",
+    "att": 43.4529,
+    "lat": -80.5281
+  },
+  {
+    "ZIP": "N2M",
+    "City": "Kitchener Northwest",
+    "prov": "Ontario",
+    "att": 43.4422,
+    "lat": -80.4968
+  },
+  {
+    "ZIP": "N2N",
+    "City": "Kitchener West",
+    "prov": "Ontario",
+    "att": 43.4241,
+    "lat": -80.5214
+  },
+  {
+    "ZIP": "N2P",
+    "City": "Kitchener Southeast",
+    "prov": "Ontario",
+    "att": 43.3938,
+    "lat": -80.4443
+  },
+  {
+    "ZIP": "N2R",
+    "City": "Kitchener South",
+    "prov": "Ontario",
+    "att": 43.3965,
+    "lat": -80.4575
+  },
+  {
+    "ZIP": "N2T",
+    "City": "Waterloo Southwest",
+    "prov": "Ontario",
+    "att": 43.4511,
+    "lat": -80.5572
+  },
+  {
+    "ZIP": "N2V",
+    "City": "Waterloo Northwest",
+    "prov": "Ontario",
+    "att": 43.5036,
+    "lat": -80.5413
+  },
+  {
+    "ZIP": "N2Z",
+    "City": "Kincardine",
+    "prov": "Ontario",
+    "att": 44.1821,
+    "lat": -81.6373
+  },
+  {
+    "ZIP": "N3A",
+    "City": "Baden",
+    "prov": "Ontario",
+    "att": 43.4161,
+    "lat": -80.688
+  },
+  {
+    "ZIP": "N3B",
+    "City": "Elmira",
+    "prov": "Ontario",
+    "att": 43.5852,
+    "lat": -80.5662
+  },
+  {
+    "ZIP": "N3C",
+    "City": "Cambridge Northeast",
+    "prov": "Ontario",
+    "att": 43.4317,
+    "lat": -80.3112
+  },
+  {
+    "ZIP": "N3E",
+    "City": "Cambridge Northwest",
+    "prov": "Ontario",
+    "att": 43.4244,
+    "lat": -80.3364
+  },
+  {
+    "ZIP": "N3H",
+    "City": "Cambridge West",
+    "prov": "Ontario",
+    "att": 43.4061,
+    "lat": -80.3503
+  },
+  {
+    "ZIP": "N3L",
+    "City": "Paris",
+    "prov": "Ontario",
+    "att": 43.1834,
+    "lat": -80.3749
+  },
+  {
+    "ZIP": "N3P",
+    "City": "Brantford Northeast",
+    "prov": "Ontario",
+    "att": 43.1884,
+    "lat": -80.2422
+  },
+  {
+    "ZIP": "N3R",
+    "City": "Brantford Central",
+    "prov": "Ontario",
+    "att": 43.1501,
+    "lat": -80.2766
+  },
+  {
+    "ZIP": "N3S",
+    "City": "Brantford Southeast",
+    "prov": "Ontario",
+    "att": 43.1242,
+    "lat": -80.2412
+  },
+  {
+    "ZIP": "N3T",
+    "City": "Brantford Southwest",
+    "prov": "Ontario",
+    "att": 43.1094,
+    "lat": -80.275
+  },
+  {
+    "ZIP": "N3V",
+    "City": "Brantford Northwest",
+    "prov": "Ontario",
+    "att": 43.1704,
+    "lat": -80.2937
+  },
+  {
+    "ZIP": "N3W",
+    "City": "Caledonia",
+    "prov": "Ontario",
+    "att": 43.0776,
+    "lat": -79.9639
+  },
+  {
+    "ZIP": "N3Y",
+    "City": "Simcoe",
+    "prov": "Ontario",
+    "att": 42.8126,
+    "lat": -80.3091
+  },
+  {
+    "ZIP": "N4B",
+    "City": "Delhi",
+    "prov": "Ontario",
+    "att": 42.824,
+    "lat": -80.4811
+  },
+  {
+    "ZIP": "N4G",
+    "City": "Tillsonburg",
+    "prov": "Ontario",
+    "att": 42.8806,
+    "lat": -80.7527
+  },
+  {
+    "ZIP": "N4K",
+    "City": "Owen Sound",
+    "prov": "Ontario",
+    "att": 44.5519,
+    "lat": -80.9385
+  },
+  {
+    "ZIP": "N4L",
+    "City": "Meaford",
+    "prov": "Ontario",
+    "att": 44.6079,
+    "lat": -80.5922
+  },
+  {
+    "ZIP": "N4N",
+    "City": "Hanover",
+    "prov": "Ontario",
+    "att": 44.1385,
+    "lat": -81.0237
+  },
+  {
+    "ZIP": "N4S",
+    "City": "Woodstock Central",
+    "prov": "Ontario",
+    "att": 43.1277,
+    "lat": -80.7743
+  },
+  {
+    "ZIP": "N4T",
+    "City": "Woodstock North",
+    "prov": "Ontario",
+    "att": 43.1477,
+    "lat": -80.7285
+  },
+  {
+    "ZIP": "N4V",
+    "City": "Woodstock South",
+    "prov": "Ontario",
+    "att": 43.1127,
+    "lat": -80.7368
+  },
+  {
+    "ZIP": "N4W",
+    "City": "Listowel",
+    "prov": "Ontario",
+    "att": 43.7315,
+    "lat": -80.9533
+  },
+  {
+    "ZIP": "N4X",
+    "City": "St. Mary's",
+    "prov": "Ontario",
+    "att": 43.261,
+    "lat": -81.1516
+  },
+  {
+    "ZIP": "N4Z",
+    "City": "Stratford South",
+    "prov": "Ontario",
+    "att": 43.3555,
+    "lat": -80.9961
+  },
+  {
+    "ZIP": "N5A",
+    "City": "Stratford North",
+    "prov": "Ontario",
+    "att": 43.3717,
+    "lat": -80.9844
+  },
+  {
+    "ZIP": "N5C",
+    "City": "Ingersoll",
+    "prov": "Ontario",
+    "att": 43.027,
+    "lat": -80.8706
+  },
+  {
+    "ZIP": "N5H",
+    "City": "Aylmer",
+    "prov": "Ontario",
+    "att": 42.7797,
+    "lat": -80.9864
+  },
+  {
+    "ZIP": "N5L",
+    "City": "Port Stanley",
+    "prov": "Ontario",
+    "att": 42.6652,
+    "lat": -81.2018
+  },
+  {
+    "ZIP": "N5P",
+    "City": "St. Thomas North",
+    "prov": "Ontario",
+    "att": 42.7788,
+    "lat": -81.2134
+  },
+  {
+    "ZIP": "N5R",
+    "City": "St. Thomas South",
+    "prov": "Ontario",
+    "att": 42.7725,
+    "lat": -81.2003
+  },
+  {
+    "ZIP": "N5V",
+    "City": "London (YXU / North and East Argyle / East Huron Heights)",
+    "prov": "Ontario",
+    "att": 42.9927,
+    "lat": -81.1686
+  },
+  {
+    "ZIP": "N5W",
+    "City": "London East (SW Argyle / Hamilton Road)",
+    "prov": "Ontario",
+    "att": 42.9778,
+    "lat": -81.1941
+  },
+  {
+    "ZIP": "N5X",
+    "City": "London (Fanshawe / Stoneybrook / Stoney Creek / Uplands / East Masonville)",
+    "prov": "Ontario",
+    "att": 43.0303,
+    "lat": -81.2676
+  },
+  {
+    "ZIP": "N5Y",
+    "City": "London (West Huron Heights / Carling)",
+    "prov": "Ontario",
+    "att": 43.0093,
+    "lat": -81.21
+  },
+  {
+    "ZIP": "N5Z",
+    "City": "London (Glen Cairn)",
+    "prov": "Ontario",
+    "att": 42.9743,
+    "lat": -81.1946
+  },
+  {
+    "ZIP": "N6A",
+    "City": "London North (UWO)",
+    "prov": "Ontario",
+    "att": 42.9793,
+    "lat": -81.2556
+  },
+  {
+    "ZIP": "N6B",
+    "City": "London Central",
+    "prov": "Ontario",
+    "att": 42.9759,
+    "lat": -81.229
+  },
+  {
+    "ZIP": "N6C",
+    "City": "London South (East Highland / North White Oaks / North Westminster)",
+    "prov": "Ontario",
+    "att": 42.9799,
+    "lat": -81.2609
+  },
+  {
+    "ZIP": "N6E",
+    "City": "London (South White Oaks / Central Westminster / East Longwoods / West Brockley)",
+    "prov": "Ontario",
+    "att": 42.9419,
+    "lat": -81.2475
+  },
+  {
+    "ZIP": "N6G",
+    "City": "London (Sunningdale / West Masonville / Medway / NE Hyde Park / East Fox Hollow)",
+    "prov": "Ontario",
+    "att": 42.9943,
+    "lat": -81.2623
+  },
+  {
+    "ZIP": "N6H",
+    "City": "London West (Central Hyde Park / Oakridge)",
+    "prov": "Ontario",
+    "att": 42.9899,
+    "lat": -81.2607
+  },
+  {
+    "ZIP": "N6J",
+    "City": "London (Southcrest / East Westmount / West Highland)",
+    "prov": "Ontario",
+    "att": 42.9797,
+    "lat": -81.2639
+  },
+  {
+    "ZIP": "N6K",
+    "City": "London (Riverbend / Woodhull / North Sharon Creek / Byron / West Westmount)",
+    "prov": "Ontario",
+    "att": 42.9627,
+    "lat": -81.2948
+  },
+  {
+    "ZIP": "N6L",
+    "City": "London (East Tempo)",
+    "prov": "Ontario",
+    "att": 42.9344,
+    "lat": -81.2802
+  },
+  {
+    "ZIP": "N6M",
+    "City": "London (Jackson / Old Victoria / Bradley / North Highbury)",
+    "prov": "Ontario",
+    "att": 42.9922,
+    "lat": -81.1398
+  },
+  {
+    "ZIP": "N6N",
+    "City": "London (South Highbury / Glanworth / East Brockley / SE Westminster)",
+    "prov": "Ontario",
+    "att": 42.9324,
+    "lat": -81.1916
+  },
+  {
+    "ZIP": "N6P",
+    "City": "London (Talbot / Lambeth / West Tempo / South Sharon Creek)",
+    "prov": "Ontario",
+    "att": 42.9114,
+    "lat": -81.2999
+  },
+  {
+    "ZIP": "N7A",
+    "City": "Goderich",
+    "prov": "Ontario",
+    "att": 43.7347,
+    "lat": -81.7105
+  },
+  {
+    "ZIP": "N7G",
+    "City": "Strathroy",
+    "prov": "Ontario",
+    "att": 42.9625,
+    "lat": -81.6081
+  },
+  {
+    "ZIP": "N7L",
+    "City": "Chatham Northwest",
+    "prov": "Ontario",
+    "att": 42.4029,
+    "lat": -82.1941
+  },
+  {
+    "ZIP": "N7M",
+    "City": "Chatham Southeast",
+    "prov": "Ontario",
+    "att": 42.3997,
+    "lat": -82.1996
+  },
+  {
+    "ZIP": "N7S",
+    "City": "Sarnia Central",
+    "prov": "Ontario",
+    "att": 42.9607,
+    "lat": -82.3718
+  },
+  {
+    "ZIP": "N7T",
+    "City": "Sarnia Southwest",
+    "prov": "Ontario",
+    "att": 42.971,
+    "lat": -82.4084
+  },
+  {
+    "ZIP": "N7V",
+    "City": "Sarnia Northwest",
+    "prov": "Ontario",
+    "att": 42.9891,
+    "lat": -82.399
+  },
+  {
+    "ZIP": "N7W",
+    "City": "Sarnia Southeast",
+    "prov": "Ontario",
+    "att": 42.9838,
+    "lat": -82.3214
+  },
+  {
+    "ZIP": "N7X",
+    "City": "Sarnia Northeast",
+    "prov": "Ontario",
+    "att": 43.0147,
+    "lat": -82.3417
+  },
+  {
+    "ZIP": "N8A",
+    "City": "Wallaceburg",
+    "prov": "Ontario",
+    "att": 42.5799,
+    "lat": -82.3823
+  },
+  {
+    "ZIP": "N8H",
+    "City": "Leamington",
+    "prov": "Ontario",
+    "att": 42.0606,
+    "lat": -82.6029
+  },
+  {
+    "ZIP": "N8M",
+    "City": "Essex",
+    "prov": "Ontario",
+    "att": 42.1754,
+    "lat": -82.8226
+  },
+  {
+    "ZIP": "N8N",
+    "City": "Tecumseh Outskirts",
+    "prov": "Ontario",
+    "att": 42.3326,
+    "lat": -82.8926
+  },
+  {
+    "ZIP": "N8P",
+    "City": "Windsor (East Riverside)",
+    "prov": "Ontario",
+    "att": 42.3391,
+    "lat": -82.9279
+  },
+  {
+    "ZIP": "N8R",
+    "City": "Windsor (East Forest Glade)",
+    "prov": "Ontario",
+    "att": 42.3136,
+    "lat": -82.9338
+  },
+  {
+    "ZIP": "N8S",
+    "City": "Windsor (Riverside)",
+    "prov": "Ontario",
+    "att": 42.3307,
+    "lat": -82.9752
+  },
+  {
+    "ZIP": "N8T",
+    "City": "Windsor (West Forest Glade / East Fontainbleu)",
+    "prov": "Ontario",
+    "att": 42.3188,
+    "lat": -82.965
+  },
+  {
+    "ZIP": "N8V",
+    "City": "Tecumseh (YQG)",
+    "prov": "Ontario",
+    "att": 42.2679,
+    "lat": -82.9699
+  },
+  {
+    "ZIP": "N8W",
+    "City": "Windsor (South Walkerville / West Fontainbleu / Walker Farm / Devonshire)",
+    "prov": "Ontario",
+    "att": 42.3062,
+    "lat": -83.0017
+  },
+  {
+    "ZIP": "N8X",
+    "City": "Windsor South Central (West Walkerville / Remington Park)",
+    "prov": "Ontario",
+    "att": 42.3039,
+    "lat": -83.0308
+  },
+  {
+    "ZIP": "N8Y",
+    "City": "Windsor East (East Walkerville)",
+    "prov": "Ontario",
+    "att": 42.3251,
+    "lat": -83.0171
+  },
+  {
+    "ZIP": "N9A",
+    "City": "Windsor (City Centre / NW Walkerville)",
+    "prov": "Ontario",
+    "att": 42.3159,
+    "lat": -83.0393
+  },
+  {
+    "ZIP": "N9B",
+    "City": "Windsor (University / South Cameron)",
+    "prov": "Ontario",
+    "att": 42.3158,
+    "lat": -83.0568
+  },
+  {
+    "ZIP": "N9C",
+    "City": "Windsor (Sandwich / Ojibway / West Malden)",
+    "prov": "Ontario",
+    "att": 42.3077,
+    "lat": -83.0724
+  },
+  {
+    "ZIP": "N9E",
+    "City": "Windsor South (East Malden)",
+    "prov": "Ontario",
+    "att": 42.2736,
+    "lat": -83.0416
+  },
+  {
+    "ZIP": "N9G",
+    "City": "Windsor (Roseland)",
+    "prov": "Ontario",
+    "att": 42.2581,
+    "lat": -82.9988
+  },
+  {
+    "ZIP": "N9H",
+    "City": "La Salle East",
+    "prov": "Ontario",
+    "att": 42.2351,
+    "lat": -82.998
+  },
+  {
+    "ZIP": "N9J",
+    "City": "La Salle West",
+    "prov": "Ontario",
+    "att": 42.247,
+    "lat": -83.1
+  },
+  {
+    "ZIP": "N9K",
+    "City": "Tecumseh Central",
+    "prov": "Ontario",
+    "att": 42.049,
+    "lat": -83.1032
+  },
+  {
+    "ZIP": "N9V",
+    "City": "Amherstburg",
+    "prov": "Ontario",
+    "att": 42.1106,
+    "lat": -83.1115
+  },
+  {
+    "ZIP": "N9Y",
+    "City": "Kingsville",
+    "prov": "Ontario",
+    "att": 42.0377,
+    "lat": -82.7394
+  },
+  {
+    "ZIP": "P0A",
+    "City": "Nipissing Central (Burk's Falls)",
+    "prov": "Ontario",
+    "att": 45.4139,
+    "lat": -79.6728
+  },
+  {
+    "ZIP": "P0B",
+    "City": "Nipissing South (Utterson)",
+    "prov": "Ontario",
+    "att": 45.1103,
+    "lat": -79.158
+  },
+  {
+    "ZIP": "P0C",
+    "City": "Parry Sound Mid-Shore (Bala)",
+    "prov": "Ontario",
+    "att": 44.8462,
+    "lat": -79.7954
+  },
+  {
+    "ZIP": "P0E",
+    "City": "Parry Sound South Shore (Kilworthy)",
+    "prov": "Ontario",
+    "att": 44.8935,
+    "lat": -79.741
+  },
+  {
+    "ZIP": "P0G",
+    "City": "Parry Sound North Shore (Nobel)",
+    "prov": "Ontario",
+    "att": 45.9033,
+    "lat": -80.5762
+  },
+  {
+    "ZIP": "P0H",
+    "City": "Nipissing North (Callander)",
+    "prov": "Ontario",
+    "att": 45.8738,
+    "lat": -79.8846
+  },
+  {
+    "ZIP": "P0J",
+    "City": "Timiskaming South (Temiskaming Shores)",
+    "prov": "Ontario",
+    "att": 47.6756,
+    "lat": -79.5424
+  },
+  {
+    "ZIP": "P0K",
+    "City": "Timiskaming North (Iroquois Falls A)",
+    "prov": "Ontario",
+    "att": 48.1346,
+    "lat": -80.0769
+  },
+  {
+    "ZIP": "P0L",
+    "City": "Cochrane Region (Hearst)",
+    "prov": "Ontario",
+    "att": 52.923,
+    "lat": -82.4173
+  },
+  {
+    "ZIP": "P0M",
+    "City": "Algoma, Sudbury District and Greater Sudbury (Chelmsford)",
+    "prov": "Ontario",
+    "att": 46.1329,
+    "lat": -80.8231
+  },
+  {
+    "ZIP": "P0N",
+    "City": "Timmins Region (South Porcupine)",
+    "prov": "Ontario",
+    "att": 48.4466,
+    "lat": -80.8161
+  },
+  {
+    "ZIP": "P0P",
+    "City": "Manitoulin (Little Current)",
+    "prov": "Ontario",
+    "att": 46.0182,
+    "lat": -82.2507
+  },
+  {
+    "ZIP": "P0R",
+    "City": "Algoma Southwest (Blind River)",
+    "prov": "Ontario",
+    "att": 46.1849,
+    "lat": -82.8228
+  },
+  {
+    "ZIP": "P0S",
+    "City": "Lake Superior East Shore (Wawa)",
+    "prov": "Ontario",
+    "att": 46.9551,
+    "lat": -84.5005
+  },
+  {
+    "ZIP": "P0T",
+    "City": "Lake Superior North Shore (Marathon)",
+    "prov": "Ontario",
+    "att": 50.139,
+    "lat": -89.0561
+  },
+  {
+    "ZIP": "P0V",
+    "City": "Northwestern Ontario (Red Lake)",
+    "prov": "Ontario",
+    "att": 50.2407,
+    "lat": -90.2024
+  },
+  {
+    "ZIP": "P0W",
+    "City": "Rainy River Region (Emo)",
+    "prov": "Ontario",
+    "att": 48.7778,
+    "lat": -93.962
+  },
+  {
+    "ZIP": "P0X",
+    "City": "Kenora Region (Keewatin)",
+    "prov": "Ontario",
+    "att": 49.7003,
+    "lat": -94.8583
+  },
+  {
+    "ZIP": "P0Y",
+    "City": "Lake of the Woods East Shore (Ingolf)",
+    "prov": "Ontario",
+    "att": 49.7857,
+    "lat": -95.1168
+  },
+  {
+    "ZIP": "P1A",
+    "City": "North Bay South",
+    "prov": "Ontario",
+    "att": 46.3036,
+    "lat": -79.4624
+  },
+  {
+    "ZIP": "P1B",
+    "City": "North Bay Central",
+    "prov": "Ontario",
+    "att": 46.3094,
+    "lat": -79.464
+  },
+  {
+    "ZIP": "P1C",
+    "City": "North Bay North",
+    "prov": "Ontario",
+    "att": 46.3411,
+    "lat": -79.4457
+  },
+  {
+    "ZIP": "P1H",
+    "City": "Huntsville",
+    "prov": "Ontario",
+    "att": 45.3272,
+    "lat": -79.2151
+  },
+  {
+    "ZIP": "P1L",
+    "City": "Bracebridge",
+    "prov": "Ontario",
+    "att": 45.057,
+    "lat": -79.3366
+  },
+  {
+    "ZIP": "P1P",
+    "City": "Gravenhurst",
+    "prov": "Ontario",
+    "att": 44.9451,
+    "lat": -79.3549
+  },
+  {
+    "ZIP": "P2A",
+    "City": "Parry Sound",
+    "prov": "Ontario",
+    "att": 45.3405,
+    "lat": -80.0365
+  },
+  {
+    "ZIP": "P2B",
+    "City": "Sturgeon Falls",
+    "prov": "Ontario",
+    "att": 46.3664,
+    "lat": -79.9178
+  },
+  {
+    "ZIP": "P2N",
+    "City": "Kirkland Lake",
+    "prov": "Ontario",
+    "att": 48.151,
+    "lat": -80.0328
+  },
+  {
+    "ZIP": "P3A",
+    "City": "Greater Sudbury (New Sudbury)",
+    "prov": "Ontario",
+    "att": 46.5076,
+    "lat": -80.9872
+  },
+  {
+    "ZIP": "P3B",
+    "City": "Greater Sudbury (Downtown / Minnow Lake)",
+    "prov": "Ontario",
+    "att": 46.4769,
+    "lat": -80.9099
+  },
+  {
+    "ZIP": "P3C",
+    "City": "Greater Sudbury (Gatchell / West End / Little Britain)",
+    "prov": "Ontario",
+    "att": 46.4727,
+    "lat": -81.0291
+  },
+  {
+    "ZIP": "P3E",
+    "City": "Greater Sudbury (Robinson / Lockerby)",
+    "prov": "Ontario",
+    "att": 46.4918,
+    "lat": -80.9955
+  },
+  {
+    "ZIP": "P3G",
+    "City": "Greater Sudbury (Lo-Ellen / McFarlane Lake)",
+    "prov": "Ontario",
+    "att": 46.4106,
+    "lat": -81.0517
+  },
+  {
+    "ZIP": "P3L",
+    "City": "Greater Sudbury (Garson)",
+    "prov": "Ontario",
+    "att": 46.5625,
+    "lat": -80.8665
+  },
+  {
+    "ZIP": "P3N",
+    "City": "Greater Sudbury (Val Caron)",
+    "prov": "Ontario",
+    "att": 46.6191,
+    "lat": -81.0356
+  },
+  {
+    "ZIP": "P3P",
+    "City": "Greater Sudbury (Hanmer)",
+    "prov": "Ontario",
+    "att": 46.6318,
+    "lat": -81.0147
+  },
+  {
+    "ZIP": "P3Y",
+    "City": "Greater Sudbury (Lively)",
+    "prov": "Ontario",
+    "att": 46.4223,
+    "lat": -81.1165
+  },
+  {
+    "ZIP": "P4N",
+    "City": "Timmins Southeast",
+    "prov": "Ontario",
+    "att": 48.4757,
+    "lat": -81.3366
+  },
+  {
+    "ZIP": "P4P",
+    "City": "Timmins North",
+    "prov": "Ontario",
+    "att": 48.4951,
+    "lat": -81.3513
+  },
+  {
+    "ZIP": "P4R",
+    "City": "Timmins West",
+    "prov": "Ontario",
+    "att": 48.473,
+    "lat": -81.3765
+  },
+  {
+    "ZIP": "P5A",
+    "City": "Elliot Lake",
+    "prov": "Ontario",
+    "att": 46.372,
+    "lat": -82.6721
+  },
+  {
+    "ZIP": "P5E",
+    "City": "Espanola",
+    "prov": "Ontario",
+    "att": 46.2629,
+    "lat": -81.7719
+  },
+  {
+    "ZIP": "P5N",
+    "City": "Kapuskasing",
+    "prov": "Ontario",
+    "att": 49.4134,
+    "lat": -82.4203
+  },
+  {
+    "ZIP": "P6A",
+    "City": "Sault Ste. Marie East",
+    "prov": "Ontario",
+    "att": 46.5175,
+    "lat": -84.3414
+  },
+  {
+    "ZIP": "P6B",
+    "City": "Sault Ste. Marie Central",
+    "prov": "Ontario",
+    "att": 46.5105,
+    "lat": -84.321
+  },
+  {
+    "ZIP": "P6C",
+    "City": "Sault Ste. Marie North",
+    "prov": "Ontario",
+    "att": 46.5245,
+    "lat": -84.3768
+  },
+  {
+    "ZIP": "P7A",
+    "City": "Thunder Bay Northeast",
+    "prov": "Ontario",
+    "att": 48.4578,
+    "lat": -89.1885
+  },
+  {
+    "ZIP": "P7B",
+    "City": "Thunder Bay North Central",
+    "prov": "Ontario",
+    "att": 48.4349,
+    "lat": -89.2192
+  },
+  {
+    "ZIP": "P7C",
+    "City": "Thunder Bay Central",
+    "prov": "Ontario",
+    "att": 48.3852,
+    "lat": -89.242
+  },
+  {
+    "ZIP": "P7E",
+    "City": "Thunder Bay South Central",
+    "prov": "Ontario",
+    "att": 48.3775,
+    "lat": -89.2704
+  },
+  {
+    "ZIP": "P7G",
+    "City": "Thunder Bay North",
+    "prov": "Ontario",
+    "att": 48.4511,
+    "lat": -89.273
+  },
+  {
+    "ZIP": "P7J",
+    "City": "Thunder Bay South",
+    "prov": "Ontario",
+    "att": 48.3187,
+    "lat": -89.3415
+  },
+  {
+    "ZIP": "P7K",
+    "City": "Thunder Bay West",
+    "prov": "Ontario",
+    "att": 48.3959,
+    "lat": -89.3556
+  },
+  {
+    "ZIP": "P8N",
+    "City": "Dryden",
+    "prov": "Ontario",
+    "att": 49.7856,
+    "lat": -92.8364
+  },
+  {
+    "ZIP": "P8T",
+    "City": "Sioux Lookout",
+    "prov": "Ontario",
+    "att": 50.0885,
+    "lat": -91.9086
+  },
+  {
+    "ZIP": "P9A",
+    "City": "Fort Frances",
+    "prov": "Ontario",
+    "att": 48.6075,
+    "lat": -93.3869
+  },
+  {
+    "ZIP": "P9N",
+    "City": "Kenora",
+    "prov": "Ontario",
+    "att": 49.7667,
+    "lat": -94.4848
+  }
+]

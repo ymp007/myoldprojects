@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First</title>	
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		var app=angular.module("ListApp",[]);
+		app.controller("myctrl",function($scope){
+			$scope.subjects=["Os","Odb","PHP"];
+			$scope.addItem=function(){
+				$scope.error="";
+				if($scope.subjects.indexOf($scope.subinput)==-1){
+					$scope.subjects.push($scope.subinput);	
+				}
+				else{
+					$scope.error="Please Enter Different Subject";
+				}
+			}
+			$scope.removeItem=function(x){
+				$scope.subjects.splice(x, 1);
+			}
+		});
+	</script>
+<div ng-app="ListApp" ng-controller="myctrl">
+	<ul>
+		<li ng-repeat="x in subjects">{{x}}<span ng-click="removeItem($index)">&times</span></li>
+	</ul>
+	<input type="text" ng-model="subinput">
+	<button ng-click="addItem()">Add</button>
+	<p>{{error}}</p>
+</div>
+</body>
+</html>

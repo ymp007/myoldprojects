@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Country Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Asn9.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               $("#countryData").keyup(function(){
+                   $.ajax({
+                    url: "Country.json",
+                    success: function(data){                       
+                       var textdata=$('#countryData').val()
+                       var x="<h2>"+textdata+"</h2><table border = '1'><tr><th>Province Name</th><th>Local Name</th><th>Population</th><th>No of City in Province</th></tr>";
+                       count = 0;
+                        $.each(data.mondial.country,function(i,value){
+                        if(value.name==textdata){
+                        if(value.province!=undefined){
+                          $.each(value.province,function(i1,value1){
+                            $.each(value1.population,function(i3,value3){
+                              if(value3["-year"]==2011){
+                                y="<td>"+value3["#text"]+"</td>";
+                              }
+                            });
+                            if(value1.localname!=undefined){
+                            x+="<tr><td>"+value1.name+"</td><td>"+value1.localname+"</td>";
+                          }else{
+                            x+="<tr><td>"+value1.name+"</td><td>Not Available</td>";
+                          }
+                            $.each(value1.city,function(i2,value2){
+                              count++;
+                            });
+                            x+=y+"<td>"+count+"</td></tr>";
+                            count=0;
+            });
+          }else{
+            $.each(value.city,function(i2,value2){
+                count++;  
+              });
+            x+="<td>Not Available</td><td>Not Available</td><td>Not Available</td><td>"+count+"</td>";
+            count=0;
+          }
+        }else{
+
+        }
+        });
+        x+="</table>";
+        $('#display').html(x);
+			},
+      error:function(){$('#display').html("SOrry File Not Found");}
+            });
+             });
+             });
+        </script>
+    </head>
+    <body>
+        <h1>Search Country Data</h1>
+        <div>
+            <input type="text" id="countryData" placeholder="Enter Country Name Here"/>
+        </div>
+        <p id="display" style="margin-left: 10px"></p>
+        
+    </body>
+</html>

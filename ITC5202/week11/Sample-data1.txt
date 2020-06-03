@@ -1,0 +1,5 @@
+{
+    "p1":{ name: "Apple", color:"green"},
+    "p2":{ name: "Orange", color:"yellow"},
+    "p3":{ name: "Peach", color:"red"}
+}

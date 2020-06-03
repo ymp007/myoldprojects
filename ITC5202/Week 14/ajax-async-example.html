@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ITC5202</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+var num = 0;
+var intervalID;
+function myUpdate(){
+	$("#id").html(num);
+	num++;
+}
+function STOP(){
+	clearInterval(intervalID);
+}
+$(document).ready(function () {
+	START();
+
+});
+function START(){
+	intervalID=setInterval(myUpdate,1000);
+}
+</script>
+</head>
+<body>
+<h1> The counter: </h1>
+<p id="id"> </p>
+<button onclick="STOP()">Stop</button>
+<button onclick="START()">Start</button>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Weather Information </title>
+  <link rel="stylesheet" type="text/css" href="ASN7.css">
+<body>
+
+<h1>Weather Information </h1>
+
+<button type="button" id="toronto_btn" onclick="loadDoc('Toronto')">Toronto</button>
+<button type="button" id="oakville_btn" onclick="loadDoc('Oakville')">Oakville</button>
+<br><br>
+<p id="demo"></p>
+<script>
+function loadDoc(City) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+	//else alert("error");
+  };
+  xhttp.open("GET", "http://api.citygridmedia.com/content/places/v2/search/where?what=theater&where=newyork&tag=11279&placement=sec-5&publisher=test", true);
+  xhttp.send();
+}
+function myFunction(json) {
+   //alert("h");
+  var myObj = json.responseXML;
+  console.log(myObj);
+  /*
+  x="<h2>"+myObj.getElementsByTagName('temperature')[0].getAttribute('value')+" &#778;C</h2>";
+  y="<h3>"+myObj.getElementsByTagName('city')[0].getAttribute('name')+"</h3><br/>"
+  y+=x+"<br/>";
+  y+=myObj.getElementsByTagName('weather')[0].getAttribute('value')+"<br/>";
+  y+="Humidity : "+myObj.getElementsByTagName('humidity')[0].getAttribute('value')+"<br/> WindSpeed : "+myObj.getElementsByTagName('speed')[0].getAttribute('value')+" Miles/hr";
+  
+  document.getElementById('demo').innerHTML= y+"<br/>";*/
+}
+</script>
+</body>
+</html>

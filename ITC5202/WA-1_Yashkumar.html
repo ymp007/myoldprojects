@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Assignment 6 </title>
+	<script type="text/javascript">
+		x="<h1>List of Item(Not Available)</h1><table border='1' style='border-collapse : collapse'>"
+			//Create XHR object/instance
+			var xHttp=new XMLHttpRequest();
+			//Open Json File
+			xHttp.open("GET", "Yashkumar.json",false);
+			xHttp.send();
+			x+="<tr style='background-Color : #42dff4'><th>ISBN</th><th>Title</th><th>Return</th><th>Publisher</th><th>Collection</th></tr>"
+			//Convert TEXT into JSON
+			var myObj=JSON.parse(xHttp.responseText);
+			for (var i = 0; i<myObj.itemlist.item.length; i++) {
+				
+					if(typeof myObj.itemlist.item[i].status["#text"] === 'string'){
+						if(myObj.itemlist.item[i].status["#text"] != "Available"){
+					x+="<tr><td>"+myObj.itemlist.item[i].isbn+" </td><td>"+myObj.itemlist.item[i].title+" </td><td>"+myObj.itemlist.item[i].status["-return"]+" </td><td>"+myObj.itemlist.item[i].publisher+" </td><td>"+myObj.itemlist.item[i].collection+" </td></tr>";
+				}
+				}
+				}
+x+="</table>"
+document.write(x);
+	</script>
+</head>
+<body>
+
+</body>
+</html>

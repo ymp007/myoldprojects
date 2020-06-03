@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>React</title>
+	<script src="https://unpkg.com/react@16.7.0/umd/react.development.js"></script>
+	<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.development.js"></script>
+	<script src="https:/unpkg.com/@babel/standalone/babel.min.js"></script>
+	<style type="text/css">
+		.heading{
+			color: Purple;
+		}
+	</style>
+</head>
+<body>
+	<div id="root">
+		
+
+		<script type="text/babel">
+			const lakeList = [{id:1,name:"Ontario Lake", trailhead : "Ontario Lake"},{id:2,name:"Sudbary Lake", trailhead : "Sudbary"},{id:3,name:"Alberta Lake", trailhead : "Alberta"}];
+
+			const App = ({lakes}) =>(
+				<ul>
+					{lakes.map(lake => 
+						<li key={lake.id}>{lake.id} {lake.name}</li>
+					)}
+				</ul>
+			)
+
+			ReactDOM.render(
+			<App lakes={lakeList}/>,
+			document.getElementById("root")
+				);
+		</script>
+	</div>
+</body>
+</html>

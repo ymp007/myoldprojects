@@ -1,0 +1,5 @@
+index-list
+show-show detail
+create-insert data
+store- store data
+destroy - destroydata

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ITC5202</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+
+function updateMe(){
+var name = "";	
+	$.ajax({
+		type: "GET",
+		url: "data-1.xml",
+		dataType: "xml",
+		success: function(xml) {
+				 data = $(xml).find('name').each(function(){
+									name += $(this).text() + '</br>';
+				 })
+				 $("#id").html(name);
+			
+		}
+	});
+}
+$(document).ready(function () {
+	setInterval(updateMe, 300);
+});
+</script>
+</head>
+<body>
+<p id="id"> </p>
+<button id="btn">
+Click Me
+</button>
+</body>
+</html>

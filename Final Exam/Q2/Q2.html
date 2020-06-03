@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Currency Exchange</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#studnetData").keyup(function(){
+                var studnetdata=$('#studnetData').val();
+                var y=""
+                y+=studnetdata+"<br/><br/>";
+                $.getJSON("Q2.json",function(mainData){
+                	y+="Course:<br/><br/>"
+                	$.each(mainData.StudentList.student,function(i,value){
+                		if(value.studentid==studnetdata){
+                			y+=value.Course+"<br/>";
+                		}
+                	});
+                	$("#display").html(y);
+                });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Student Data</h1>
+        <div>
+            <input type="text" id="studnetData" placeholder="Enter Student id Here"/>
+        </div>
+        <p id="display"><i></i></p>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>project 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var myobj1;
+            var myobj2;
+            $("#search").click(function () {
+                var textdata = $('#countryData').val();
+                $.when(
+                    // Get the country data
+                    $.get(("https://restcountries.eu/rest/v2/name/" + textdata), function (country) {
+                        myobj1 = country;
+                    })
+
+                    // Get the currency data
+
+                ).then(function () {
+
+                    // All is ready now, so...
+                    //console.log(myobj2);
+                    console.log(myobj1);
+
+                    var x = "<table border = '1'>";
+                    x += "<tr><th>" + "Country Name" + "<th>" + "Capital" + "</th>";
+                    x += "<th>" + "Population" + "</th><th>" + "Region" + "</th>";
+                    x += "<th>" + "Subregion" + "</th>";
+                    x += "<th>" + " Neighbours" + "</th></tr>";
+                    var borders = myobj1[0].borders[0]+ "  ";
+                    borders += myobj1[0].borders[1]+ "  ";
+                    borders += myobj1[0].borders[2];
+                    var population = myobj1[0].population;
+                    var country_region = myobj1[0].region;
+                    var country_subregion = myobj1[0].subregion;
+                    var Country_name = myobj1[0].name;
+                    var capital = myobj1[0].capital;
+
+
+
+
+
+                    x += "<tr><td>" + Country_name + "</td><td>" + capital + "</td><td>" + population + "</td>";
+                    x += "<td>" + country_region + "</td><td>"+country_subregion +"<td>" +borders +"</td></tr>";
+                    $('#display').html(x);
+                });
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+<h1>Currency</h1>
+<h2>Search Country </h2>
+<form>
+    <input type="text" id="countryData" placeholder="Enter Country Name Here"/>
+    <button id="search" type="button">Search</button>
+</form>
+<p id="display"><i></i></p>
+</body>
+</html>

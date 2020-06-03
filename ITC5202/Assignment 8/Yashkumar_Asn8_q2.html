@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html>
+  <head> <title> Weather Information </title>
+    <link rel="stylesheet" type="text/css" href="ASN8.css">
+  <body>
+
+  <h1>Weather Information </h1>
+
+  <button type="button" id="toronto_btn">Toronto</button>
+  <button type="button" id="oakville_btn">Oakville</button>
+  <br><br>
+  <p id="demo"></p>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('#toronto_btn').click(function(){
+        var myObj = $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric&appid=76c3ed47797ecf241274a658cd7138c6",function(myObj){
+            console.log(myObj);
+        x="<h2>"+myObj.main.temp+" &#778;C</h2>";
+        y="<h3>"+myObj.name+"</h3><br/>"
+        y+=x+"<br/>";
+      //y+="Min : "+myObj.main.temp_min+" &#778;C   Max : "+myObj.main.temp_max+" &#778;C <br/>";
+      y+=myObj.weather[0].description+"<br/>";
+      y+="Humidity : "+myObj.main.humidity+"<br/> WindSpeed : "+myObj.wind.speed+" Miles/hr";
+      $('#demo').html(y);
+      });
+      });
+      $('#oakville_btn').click(function(){
+        var myObj = $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Oakville&units=metric&appid=76c3ed47797ecf241274a658cd7138c6",function(myObj){
+            console.log(myObj);
+        x="<h2>"+myObj.main.temp+" &#778;C</h2>";
+        y="<h3>"+myObj.name+"</h3><br/>"
+        y+=x+"<br/>";
+      //y+="Min : "+myObj.main.temp_min+" &#778;C   Max : "+myObj.main.temp_max+" &#778;C <br/>";
+      y+=myObj.weather[0].description+"<br/>";
+      y+="Humidity : "+myObj.main.humidity+"<br/> WindSpeed : "+myObj.wind.speed+" Miles/hr";
+      $('#demo').html(y);
+      });
+      });
+    });
+  </script>
+  </body>
+  </html>

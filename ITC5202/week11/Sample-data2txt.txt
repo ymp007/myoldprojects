@@ -1,0 +1,7 @@
+{
+    "fruit":[ 
+	          {name: "Apple", color:"green"},
+			  {name: "Orange", color:"yellow"},
+              { name: "Peach", color:"red"}
+			]  
+}

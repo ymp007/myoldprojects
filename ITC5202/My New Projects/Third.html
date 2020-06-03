@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    
+    <style>
+        table 
+        {
+            width: auto;
+            font: 17px Calibri;
+        }
+        table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div ng-app="myApp" 
+        ng-controller="myController">
+        <span ng-repeat="subject in selectsubjects">
+    <input type="checkbox" id="{{subject}}" ng-model="subject" ng-checked="exist(subject)" ng-click="toggle(subject)"/>
+    <label for="{{subject}}">{{subject}}</label>
+    <br>
+</span>
+<button ng-click="submit()">Submit</button>
+<p ng-repeat="selectedsub in selectedList">{{selectedList}}</p>
+    </div>
+</body>
+
+<!--The Controller-->
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController',
+        function ($scope) {
+
+                    $scope.selectsubjects = ['PHP','J2EE','IOS','ANDROID'];
+                    $scope.selectedList = [];
+                    $scope.exist=function(subject){
+                    	return $scope.selectedList.indexOf(subject)>-1
+                    }
+                    $scope.toggle=function(subject){
+                    	var idx=$scope.selectedList.indexOf(subject)
+                    	if(idx>-1){
+                    		$scope.selectedList.splice(idx, 1);
+                    	}else{
+                    		$scope.selectedList.push(subject);
+                    	}
+                    }
+
+        });
+</script>
+</html>

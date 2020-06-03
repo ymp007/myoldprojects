@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>ITC5202</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+        $('#zipButton').click(function(){
+		$.ajax({
+			url:"Asn8.json",
+
+			success:function(data){
+                //find City Using ZIP
+                //Step:1 Read Form Data
+                var zData=$('#zipCode').val()
+				console.log(zData);
+                //Step:2 compare and search
+                var flag="false";
+                $.each(data,function(i,value){
+                       console.log(i);
+                if(zData==value.ZIP){
+                   flag=value.City;
+                    return false;
+                   }
+                else{
+                   
+                   }
+            });
+                if(flag=="false"){
+                    $('#demo').html("Sorry City Not Found");
+                }else{
+                    $('#demo').html(flag);
+                }
+			},
+			error:function(){alert('error')}
+		});
+    });
+	});
+
+</script>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+    <form>
+    ZIP : <input type="text" id="zipCode"/><br/>
+        <input type="button" value="ZipCode" id="zipButton"/>
+    </form>
+<p id="demo"></p>
+</body></html>

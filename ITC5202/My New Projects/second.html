@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    
+    <style>
+        table 
+        {
+            width: auto;
+            font: 17px Calibri;
+        }
+        table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div ng-app="myApp" 
+        ng-controller="myController">
+        <span ng-repeat="subject in selectsubjects">
+    <input type="checkbox" id="{{subject}}" ng-model="selectedList[subject]"/>
+    <label for="{{subject}}">{{subject}}</label>
+    <br>
+</span>
+<button ng-click="submit()">Submit</button>
+    </div>
+</body>
+
+<!--The Controller-->
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myController',
+        function ($scope, $http) {
+
+            var request = {
+                method: 'get',
+                url: 'timetable.txt',
+                dataType: 'text',
+                contentType: "text"
+            };
+
+
+            $http(request)
+                .success(function (data) {
+                    $scope.selectsubjects = ['PHP','J2EE','IOS','ANDROID'];
+                    $scope.selectedList = {};
+
+/**
+ * Action
+ */
+    $scope.submit=function(){
+                    angular.forEach($scope.selectedList, function (selected, subject) {
+                    if (selected) {
+                    console.log(subject);
+                    }
+});
+                }
+                    /*if(!$scope.checkboxModel){
+                        $scope.message="True";
+                    };
+                    var data1=data.split("\n");
+                   for (var i = 0; i < data1.length; i++) {
+                       var sub=data1[i].split(",");
+                       
+                       if(sub[1].toUpperCase()=="PHP"){
+                        //$scope.message=sub[1]+" "+sub[0]+" "+sub[2].substring(0,2)+":"+sub[2].substring(2,4);
+                       }
+                   }*/
+                })
+                .error(function () {
+
+                });
+        });
+</script>
+</html>

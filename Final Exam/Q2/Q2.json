@@ -1,0 +1,40 @@
+{
+	"StudentList": {
+		"student": [{
+				"studentid": "1002",
+				"Fname": "Jhon",
+				"Lname": "Smith",
+				"Course": "Math",
+				"semester": "2018-1"
+			},
+			{
+				"studentid": "1002",
+				"Fname": "Jhon",
+				"Lname": "Smith",
+				"Course": "Science",
+				"semester": "2018-1"
+			},
+			{
+				"studentid": "1005",
+				"Fname": "Sara",
+				"Lname": "Coner",
+				"Course": "Java",
+				"semester": "2018-2"
+			},
+			{
+				"studentid": "1005",
+				"Fname": "Sara",
+				"Lname": "Coner",
+				"Course": "PHP",
+				"semester": "2018-2"
+			},
+			{
+				"studentid": "1005",
+				"Fname": "Sara",
+				"Lname": "Coner",
+				"Course": "XML",
+				"semester": "2018-1"
+			}
+		]
+	}
+}
